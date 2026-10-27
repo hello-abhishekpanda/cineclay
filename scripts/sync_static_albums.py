@@ -10,6 +10,7 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "src/Cineclay.Api/albums.seed.json"
 TARGET = ROOT / "dist/albums.json"
+WEB_ROOT = ROOT / "src/Cineclay.Web/wwwroot"
 
 
 def main() -> int:
@@ -23,7 +24,17 @@ def main() -> int:
         json.dumps(albums, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
+    (ROOT / "dist/splash.js").write_text(
+        (WEB_ROOT / "splash.js").read_text(encoding="utf-8"),
+        encoding="utf-8",
+    )
+    styles = (WEB_ROOT / "style.css").read_text(encoding="utf-8")
+    marker = "/* Opening industry showcase */"
+    if marker not in styles:
+        raise SystemExit("The shared splash stylesheet marker is missing.")
+    (ROOT / "dist/splash.css").write_text(styles[styles.index(marker) :], encoding="utf-8")
     print(f"Wrote {len(albums):,} albums to {TARGET.relative_to(ROOT)}")
+    print("Synchronized the static opening showcase assets")
     return 0
 
 

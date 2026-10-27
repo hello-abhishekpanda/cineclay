@@ -1,6 +1,8 @@
 # Cineclay
 
-Cineclay is a movie, television and music discovery project with a cinema-inspired interface, year, genre and language filters, title search, pagination, watchlists, reviews, trailers, streaming links and the clayDot discovery assistant. Its opening sequence highlights Hollywood, Bollywood and Ollywood; Odia cinema has a dedicated collection. The Albums tab indexes Odia, Hindi and English songs through official YouTube links. Light and dark themes follow your device preference and can be changed from the header.
+Cineclay is a movie, television and music discovery project with a cinema-inspired interface, year, genre and language filters, title search, pagination, watchlists, reviews, trailers, streaming links and the clayDot discovery assistant. Its opening sequence highlights cinema, television and music industries from around the world; Odia cinema has a dedicated collection. The Albums tab indexes multilingual releases through MusicBrainz, Cover Art Archive and YouTube links. Light and dark themes follow your device preference and can be changed from the header.
+
+On the first visit in a browser tab, the opening showcase rotates every six seconds through eight curated film, television and music industries. It uses muted trailer backgrounds, supports direct slide selection and keyboard arrows, and disables automatic movement when reduced motion or data saving is enabled.
 
 ## Project structure
 
