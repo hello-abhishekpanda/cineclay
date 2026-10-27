@@ -114,6 +114,8 @@ public sealed class Album
 {
     public long Id { get; set; }
 
+    public string? ExternalId { get; set; }
+
     [Required, StringLength(300, MinimumLength = 1)]
     public string Title { get; set; } = "";
 
@@ -141,6 +143,11 @@ public sealed class Album
         if (Year > DateTime.UtcNow.Year)
         {
             return $"Year cannot be later than the current year ({DateTime.UtcNow.Year}).";
+        }
+
+        if (ExternalId is not null && !Guid.TryParse(ExternalId, out _))
+        {
+            return "Album external IDs must be MusicBrainz UUIDs.";
         }
 
         if ((!string.IsNullOrEmpty(Cover) && !Movie.Https(Cover))

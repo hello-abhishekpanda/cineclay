@@ -11,7 +11,7 @@
         </div>
         <div class="album-catalog-total">
             <strong>@CatalogTotal.ToString("N0")</strong>
-            <span>albums across languages · 2000–@DateTime.Now.Year</span>
+            <span>albums indexed · @PlayableTotal.ToString("N0") playable previews · 2000–@DateTime.Now.Year</span>
         </div>
     </div>
 
@@ -76,15 +76,20 @@
                     @if (album.Songs.Count > 0)
                     {
                         <button class="album-cover" @onclick="() => Open(album, album.Songs[0])" aria-label="Play @album.Title">
-                            <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
+                            <span class="album-art-title">@album.Title</span>
+                            <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" onerror="this.remove()" />
                             <span class="album-year">@album.Year · Preview</span>
                             <span class="album-play" aria-hidden="true">▶</span>
                         </button>
                     }
                     else
                     {
-                        <a class="album-cover album-cover-fallback" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer" aria-label="Find @album.Title on YouTube">
+                        <a class="album-cover album-cover-fallback" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer" aria-label="Play or find @album.Title on YouTube">
                             <span class="album-art-title">@album.Title</span>
+                            @if (!string.IsNullOrWhiteSpace(album.Cover))
+                            {
+                                <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" onerror="this.remove()" />
+                            }
                             <span class="album-year">@album.Year</span>
                             <span class="album-play" aria-hidden="true">↗</span>
                         </a>
@@ -116,7 +121,10 @@
                         }
                         else
                         {
-                            <a class="album-youtube-link" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer">YouTube results <span>↗</span></a>
+                            <a class="album-youtube-link" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer" aria-label="Play or find @album.Title on YouTube">
+                                <img src="logos/youtube.ico" alt="" />
+                                Play on YouTube <span>↗</span>
+                            </a>
                         }
                     </div>
                 </article>
@@ -182,7 +190,7 @@
 @code {
     readonly List<Album> AlbumItems = [];
     string Query = "";
-    string Language = "Odia";
+    string Language = "";
     string Year = "";
     string ViewMode = "grid";
     string? Error;
@@ -191,10 +199,12 @@
     int Page = 1;
     int Total;
     int CatalogTotal;
+    int PlayableTotal;
     bool Busy;
     bool PlayableOnly;
     int LoadVersion;
-    int PageCount => Math.Max(1, (int)Math.Ceiling(Total / 12.0));
+    const int PageSize = 24;
+    int PageCount => Math.Max(1, (int)Math.Ceiling(Total / (double)PageSize));
     string VideoUrl => SelectedSong is null
         ? ""
         : $"https://www.youtube-nocookie.com/embed/{SelectedSong.YouTubeVideoId}?autoplay=1&rel=0";
@@ -211,9 +221,10 @@
             if (CatalogTotal == 0)
             {
                 CatalogTotal = (await Api.Stats()).Albums;
+                PlayableTotal = (await Api.Albums(playable: true, size: 1)).Total;
             }
 
-            var result = await Api.Albums(Query, Language, Year, PlayableOnly, Page, 12);
+            var result = await Api.Albums(Query, Language, Year, PlayableOnly, Page, PageSize);
             if (version != LoadVersion)
             {
                 return;

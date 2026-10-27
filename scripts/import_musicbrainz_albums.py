@@ -69,18 +69,20 @@ def make_album(language: str, release: dict) -> dict | None:
     date = release.get("date", "")
     mbid = release.get("id", "")
     artist = artist_name(release)
-    if not title or len(date) < 4 or not date[:4].isdigit() or not mbid:
+    release_group_id = release.get("release-group", {}).get("id", "")
+    if not title or len(date) < 4 or not date[:4].isdigit() or not mbid or not release_group_id:
         return None
 
     year = int(date[:4])
     search = urllib.parse.urlencode({"search_query": f"{artist} {title} full album"})
     return {
         "id": stable_id(mbid),
+        "externalId": mbid,
         "title": title,
         "language": language,
         "year": year,
         "artist": artist,
-        "cover": "",
+        "cover": f"https://coverartarchive.org/release-group/{release_group_id}/front-500",
         "sourceUrl": f"https://www.youtube.com/results?{search}",
         "songs": [],
     }
@@ -112,6 +114,11 @@ def parse_args() -> argparse.Namespace:
         default=pathlib.Path("src/Cineclay.Api/albums.seed.json"),
     )
     parser.add_argument("--delay", type=float, default=1.05)
+    parser.add_argument(
+        "--refresh-covers",
+        action="store_true",
+        help="Revisit MusicBrainz results and attach Cover Art Archive URLs to existing records.",
+    )
     parser.add_argument("--apply-url", help="Optional Cineclay API base URL")
     return parser.parse_args()
 
@@ -129,6 +136,7 @@ def main() -> int:
 
     existing = json.loads(args.output.read_text(encoding="utf-8")) if args.output.exists() else []
     albums = list(existing)
+    albums_by_id = {album["id"]: album for album in albums}
     seen_ids = {album["id"] for album in albums}
     seen_editions = {
         (album["language"], album["title"].casefold(), album["artist"].casefold(), album["year"])
@@ -137,12 +145,19 @@ def main() -> int:
 
     for language, code in LANGUAGES.items():
         for offset in range(0, 500, 100):
-            if len(albums) >= args.target:
+            if len(albums) >= args.target and not args.refresh_covers:
                 break
             data = fetch(code, args.start_year, args.end_year, offset)
             for release in data.get("releases", []):
                 album = make_album(language, release)
                 if album is None:
+                    continue
+                if album["id"] in albums_by_id:
+                    if args.refresh_covers:
+                        albums_by_id[album["id"]]["externalId"] = album["externalId"]
+                        albums_by_id[album["id"]]["cover"] = album["cover"]
+                    continue
+                if len(albums) >= args.target:
                     continue
                 edition = (
                     album["language"],
@@ -153,13 +168,14 @@ def main() -> int:
                 if album["id"] in seen_ids or edition in seen_editions:
                     continue
                 albums.append(album)
+                albums_by_id[album["id"]] = album
                 seen_ids.add(album["id"])
                 seen_editions.add(edition)
-                if len(albums) >= args.target:
+                if len(albums) >= args.target and not args.refresh_covers:
                     break
             print(f"{language} offset {offset}: {len(albums):,}/{args.target:,}")
             time.sleep(args.delay)
-        if len(albums) >= args.target:
+        if len(albums) >= args.target and not args.refresh_covers:
             break
 
     albums.sort(key=lambda album: (album["language"] != "Odia", -album["year"], album["title"]))

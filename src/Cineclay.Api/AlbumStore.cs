@@ -45,7 +45,7 @@ public sealed class AlbumStore(NpgsqlDataSource db)
                          a.release_year DESC, a.title
                 LIMIT @page_size OFFSET @offset
             )
-            SELECT a.id, a.title, a.release_year, a.language, a.artist, a.cover_url, a.source_url,
+            SELECT a.id, a.external_id, a.title, a.release_year, a.language, a.artist, a.cover_url, a.source_url,
                    s.youtube_video_id, s.title, s.artist, s.thumbnail_url, s.published_at
             FROM filtered a
             LEFT JOIN songs s ON s.album_id = a.id
@@ -66,25 +66,26 @@ public sealed class AlbumStore(NpgsqlDataSource db)
                     album = new Album
                     {
                         Id = id,
-                        Title = reader.GetString(1),
-                        Year = reader.GetInt32(2),
-                        Language = reader.GetString(3),
-                        Artist = reader.GetString(4),
-                        Cover = reader.GetString(5),
-                        SourceUrl = reader.GetString(6)
+                        ExternalId = reader.IsDBNull(1) ? null : reader.GetString(1),
+                        Title = reader.GetString(2),
+                        Year = reader.GetInt32(3),
+                        Language = reader.GetString(4),
+                        Artist = reader.GetString(5),
+                        Cover = reader.GetString(6),
+                        SourceUrl = reader.GetString(7)
                     };
                     albums[id] = album;
                 }
 
-                if (!reader.IsDBNull(7))
+                if (!reader.IsDBNull(8))
                 {
                     album.Songs.Add(new Song
                     {
-                        YouTubeVideoId = reader.GetString(7),
-                        Title = reader.GetString(8),
-                        Artist = reader.GetString(9),
-                        Thumbnail = reader.GetString(10),
-                        PublishedAt = reader.IsDBNull(11) ? null : reader.GetFieldValue<DateTimeOffset>(11)
+                        YouTubeVideoId = reader.GetString(8),
+                        Title = reader.GetString(9),
+                        Artist = reader.GetString(10),
+                        Thumbnail = reader.GetString(11),
+                        PublishedAt = reader.IsDBNull(12) ? null : reader.GetFieldValue<DateTimeOffset>(12)
                     });
                 }
             }
@@ -121,9 +122,10 @@ public sealed class AlbumStore(NpgsqlDataSource db)
         CancellationToken cancellationToken)
     {
         await using (var command = new NpgsqlCommand("""
-            INSERT INTO albums(id, title, release_year, language, artist, cover_url, source_url)
-            VALUES(@id, @title, @year, @language, @artist, @cover, @source)
+            INSERT INTO albums(id, external_id, title, release_year, language, artist, cover_url, source_url)
+            VALUES(@id, @external_id, @title, @year, @language, @artist, @cover, @source)
             ON CONFLICT(id) DO UPDATE SET
+                external_id = excluded.external_id,
                 title = excluded.title,
                 release_year = excluded.release_year,
                 language = excluded.language,
@@ -134,6 +136,7 @@ public sealed class AlbumStore(NpgsqlDataSource db)
             """, connection, transaction))
         {
             command.Parameters.AddWithValue("id", album.Id);
+            command.Parameters.AddWithValue("external_id", (object?)album.ExternalId ?? DBNull.Value);
             command.Parameters.AddWithValue("title", album.Title.Trim());
             command.Parameters.AddWithValue("year", album.Year);
             command.Parameters.AddWithValue("language", album.Language.Trim());

@@ -26,6 +26,7 @@ CREATE INDEX IF NOT EXISTS movies_title_prefix_idx ON movies
 
 CREATE TABLE IF NOT EXISTS albums (
  id bigint PRIMARY KEY,
+ external_id text,
  title text NOT NULL,
  release_year integer NOT NULL CHECK (release_year BETWEEN 2000 AND EXTRACT(YEAR FROM CURRENT_DATE)),
  language text NOT NULL,
@@ -35,6 +36,7 @@ CREATE TABLE IF NOT EXISTS albums (
  created_at timestamptz NOT NULL DEFAULT now(),
  updated_at timestamptz NOT NULL DEFAULT now()
 );
+ALTER TABLE albums ADD COLUMN IF NOT EXISTS external_id text;
 CREATE INDEX IF NOT EXISTS albums_year_idx ON albums(release_year DESC);
 CREATE INDEX IF NOT EXISTS albums_language_idx ON albums(language);
 ALTER TABLE albums ADD COLUMN IF NOT EXISTS search_vector tsvector GENERATED ALWAYS AS (

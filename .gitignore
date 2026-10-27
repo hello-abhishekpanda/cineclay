@@ -13,3 +13,4 @@ albums.youtube.json
 youtube-albums.checkpoint.json
 __pycache__/
 *.py[cod]
+.venv/

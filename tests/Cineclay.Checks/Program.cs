@@ -99,5 +99,7 @@ album.Cover = "";
 album.SourceUrl = "https://www.youtube.com/results?search_query=Odia+album";
 album.Songs = [];
 Check(album.Validate() is null, "Allow metadata album with YouTube search link");
+album.ExternalId = "not-a-musicbrainz-id";
+Check(album.Validate() is not null, "Reject invalid MusicBrainz release ID");
 
 Console.WriteLine($"{count} model and URL validation checks passed.");

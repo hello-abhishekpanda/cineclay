@@ -40,7 +40,7 @@ On an empty database, the API seeds both the enriched catalog and the checked-in
 
 ## Albums and YouTube import
 
-The checked-in album seed contains 5,001 real release records from MusicBrainz across Indian and international languages. Each metadata-only record links to a title-and-artist search on YouTube; the smaller curated subset with verified video IDs opens in Cineclay's embedded player. Odia is the default Albums filter.
+The checked-in album seed contains 5,001 real release records from MusicBrainz across Indian and international languages. Matching records retain their MusicBrainz release ID and use the release group's submitted Cover Art Archive front cover. When the community archive has no artwork, Cineclay keeps an explicit title fallback rather than inventing a cover. Each metadata-only record has a YouTube-branded title-and-artist search link; the smaller curated subset with verified video IDs opens in Cineclay's embedded player. The Albums page initially shows every language and offers optional language and playable-preview filters.
 
 Regenerate the 5,001-record metadata catalog and apply it to a running API with:
 
@@ -51,7 +51,7 @@ set +a
 python3 scripts/import_musicbrainz_albums.py --target 5001 --apply-url http://localhost:5081
 ```
 
-The MusicBrainz importer uses the supported JSON web service, sends an identifiable user agent, stays within the published one-request-per-second rate, limits releases to 2000 through the actual current year, and constructs HTTPS YouTube search links without scraping YouTube pages.
+The MusicBrainz importer uses the supported JSON web service, sends an identifiable user agent, stays within the published one-request-per-second rate, limits releases to 2000 through the actual current year, and constructs HTTPS YouTube search links without scraping YouTube pages. Run it with `--refresh-covers` to reconnect an existing seed to MusicBrainz and Cover Art Archive identifiers.
 
 After regenerating the API seed, refresh the dependency-free preview copy with `python3 scripts/sync_static_albums.py`. The Albums page searches titles, artists and songs as you type and can be narrowed to releases with an embedded YouTube preview.
 
