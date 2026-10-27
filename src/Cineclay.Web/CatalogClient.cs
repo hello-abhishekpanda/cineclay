@@ -52,11 +52,21 @@ public sealed class CatalogClient(HttpClient http)
         int page = 1,
         int size = 24)
     {
-        var url = "/api/albums?"
-            + $"q={Uri.EscapeDataString(q)}"
-            + $"&language={Uri.EscapeDataString(language)}"
-            + $"&year={Uri.EscapeDataString(year)}"
-            + $"&page={page}&pageSize={size}";
+        var parameters = new List<string> { $"page={page}", $"pageSize={size}" };
+
+        void Add(string name, string value)
+        {
+            if (!string.IsNullOrWhiteSpace(value))
+            {
+                parameters.Add($"{name}={Uri.EscapeDataString(value)}");
+            }
+        }
+
+        Add("q", q);
+        Add("language", language);
+        Add("year", year);
+
+        var url = $"/api/albums?{string.Join("&", parameters)}";
         return await http.GetFromJsonAsync<AlbumPage>(url) ?? new AlbumPage([], 0, page, size);
     }
 

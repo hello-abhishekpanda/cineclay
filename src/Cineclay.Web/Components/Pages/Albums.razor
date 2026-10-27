@@ -14,7 +14,7 @@
 
     @if (Error is not null)
     {
-        <div class="notice" role="alert">@Error</div>
+        <div class="notice" role="alert">@Error <button class="secondary" @onclick="Load">Try again</button></div>
     }
 
     <div class="filters">
@@ -38,34 +38,39 @@
         </select>
     </div>
 
-    @if (Busy)
-    {
-        <p role="status">Finding music…</p>
-    }
-
-    <div class="album-grid">
-        @foreach (var album in AlbumItems)
+    <div class="album-results" aria-busy="@Busy">
+        @if (Busy)
         {
-            <article class="album-card">
-                <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
-                <div class="album-copy">
-                    <span class="eyebrow">@album.Language · @album.Year</span>
-                    <h2>@album.Title</h2>
-                    <p>@album.Artist</p>
-                    <ol>
-                        @foreach (var song in album.Songs)
-                        {
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=@song.YouTubeVideoId" target="_blank" rel="noopener noreferrer">
-                                    <span>▷</span>
-                                    <span><strong>@song.Title</strong><small>@song.Artist</small></span>
-                                </a>
-                            </li>
-                        }
-                    </ol>
-                </div>
-            </article>
+            <div class="catalog-loader" role="status" aria-live="polite">
+                <span class="loading-orb" aria-hidden="true"><i></i><i></i><i></i></span>
+                <strong>Finding music</strong>
+                <small>Loading albums and songs…</small>
+            </div>
         }
+        <div class="album-grid @(Busy ? "is-loading" : "")">
+            @foreach (var album in AlbumItems)
+            {
+                <article class="album-card">
+                    <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
+                    <div class="album-copy">
+                        <span class="eyebrow">@album.Language · @album.Year</span>
+                        <h2>@album.Title</h2>
+                        <p>@album.Artist</p>
+                        <ol>
+                            @foreach (var song in album.Songs)
+                            {
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=@song.YouTubeVideoId" target="_blank" rel="noopener noreferrer">
+                                        <span>▷</span>
+                                        <span><strong>@song.Title</strong><small>@song.Artist</small></span>
+                                    </a>
+                                </li>
+                            }
+                        </ol>
+                    </div>
+                </article>
+            }
+        </div>
     </div>
 
     @if (!Busy && AlbumItems.Count == 0)
@@ -76,11 +81,22 @@
         </div>
     }
 
-    <div class="load-row">
-        <button class="secondary" disabled="@(Page == 1 || Busy)" @onclick="Previous">← Previous</button>
-        <span>Page @Page of @Math.Max(1, (int)Math.Ceiling(Total / 12.0))</span>
-        <button class="secondary" disabled="@(Page * 12 >= Total || Busy)" @onclick="Next">Next →</button>
-    </div>
+    <nav class="catalog-pagination album-pagination" aria-label="Album pagination">
+        <button class="page-direction" disabled="@(Page == 1 || Busy)" @onclick="Previous"><span aria-hidden="true">←</span> Previous</button>
+        <div class="page-status">
+            <strong>@Total.ToString("N0") albums</strong>
+            <span>Odia, Hindi and English collections</span>
+        </div>
+        <div class="page-numbers">
+            @for (var number = Math.Max(1, Page - 2); number <= Math.Min(PageCount, Page + 2); number++)
+            {
+                var destination = number;
+                <button class="page-number @(number == Page ? "active" : "")" aria-current="@(number == Page ? "page" : null)" @onclick="() => GoTo(destination)">@number</button>
+            }
+        </div>
+        <span class="page-count">Page @Page of @PageCount</span>
+        <button class="page-direction" disabled="@(Page >= PageCount || Busy)" @onclick="Next">Next <span aria-hidden="true">→</span></button>
+    </nav>
 </section>
 
 @code {
@@ -92,16 +108,24 @@
     int Page = 1;
     int Total;
     bool Busy;
+    int LoadVersion;
+    int PageCount => Math.Max(1, (int)Math.Ceiling(Total / 12.0));
 
     protected override async Task OnInitializedAsync() => await Load();
 
     async Task Load()
     {
+        var version = ++LoadVersion;
         Busy = true;
         Error = null;
         try
         {
             var result = await Api.Albums(Query, Language, Year, Page, 12);
+            if (version != LoadVersion)
+            {
+                return;
+            }
+
             AlbumItems.Clear();
             AlbumItems.AddRange(result.Items);
             Total = result.Total;
@@ -112,7 +136,10 @@
         }
         finally
         {
-            Busy = false;
+            if (version == LoadVersion)
+            {
+                Busy = false;
+            }
         }
     }
 
@@ -139,6 +166,12 @@
     async Task Next()
     {
         Page++;
+        await Load();
+    }
+
+    async Task GoTo(int destination)
+    {
+        Page = destination;
         await Load();
     }
 }
