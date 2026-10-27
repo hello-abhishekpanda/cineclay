@@ -13,6 +13,16 @@ ALTER TABLE movies ADD CONSTRAINT movies_release_year_check
 CREATE INDEX IF NOT EXISTS movies_year_idx ON movies (release_year) WHERE deleted_at IS NULL;
 CREATE INDEX IF NOT EXISTS movies_genres_idx ON movies USING gin(genres);
 CREATE INDEX IF NOT EXISTS movies_payload_idx ON movies USING gin(payload);
+ALTER TABLE movies ADD COLUMN IF NOT EXISTS search_vector tsvector GENERATED ALWAYS AS (
+ to_tsvector('simple', coalesce(title, '') || ' ' || coalesce(payload->>'summary', '') || ' ' ||
+  coalesce(payload->>'director', '') || ' ' || coalesce(payload->>'cast', '') || ' ' ||
+  coalesce(payload->>'genres', '') || ' ' || coalesce(payload->>'languages', '') || ' ' ||
+  coalesce(payload->>'source', ''))
+) STORED;
+CREATE INDEX IF NOT EXISTS movies_search_idx ON movies USING gin(search_vector)
+ WHERE deleted_at IS NULL;
+CREATE INDEX IF NOT EXISTS movies_title_prefix_idx ON movies
+ (lower(title) text_pattern_ops) WHERE deleted_at IS NULL;
 
 CREATE TABLE IF NOT EXISTS albums (
  id bigint PRIMARY KEY,
@@ -27,6 +37,11 @@ CREATE TABLE IF NOT EXISTS albums (
 );
 CREATE INDEX IF NOT EXISTS albums_year_idx ON albums(release_year DESC);
 CREATE INDEX IF NOT EXISTS albums_language_idx ON albums(language);
+ALTER TABLE albums ADD COLUMN IF NOT EXISTS search_vector tsvector GENERATED ALWAYS AS (
+ to_tsvector('simple', coalesce(title, '') || ' ' || coalesce(artist, '') || ' ' || coalesce(language, ''))
+) STORED;
+CREATE INDEX IF NOT EXISTS albums_search_idx ON albums USING gin(search_vector);
+CREATE INDEX IF NOT EXISTS albums_title_prefix_idx ON albums (lower(title) text_pattern_ops);
 
 CREATE TABLE IF NOT EXISTS songs (
  youtube_video_id varchar(11) PRIMARY KEY,
@@ -37,6 +52,10 @@ CREATE TABLE IF NOT EXISTS songs (
  published_at timestamptz
 );
 CREATE INDEX IF NOT EXISTS songs_album_idx ON songs(album_id);
+ALTER TABLE songs ADD COLUMN IF NOT EXISTS search_vector tsvector GENERATED ALWAYS AS (
+ to_tsvector('simple', coalesce(title, '') || ' ' || coalesce(artist, ''))
+) STORED;
+CREATE INDEX IF NOT EXISTS songs_search_idx ON songs USING gin(search_vector);
 CREATE TABLE IF NOT EXISTS reviews (
  id uuid PRIMARY KEY, movie_id bigint NOT NULL REFERENCES movies(id), owner_id text NOT NULL,
  rating integer NOT NULL CHECK(rating BETWEEN 1 AND 5),

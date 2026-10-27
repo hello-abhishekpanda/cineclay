@@ -14,20 +14,61 @@ public sealed class MovieStore(NpgsqlDataSource db)
         if ((long)(await count.ExecuteScalarAsync(ct))! == 0)
         {
             var seed = JsonSerializer.Deserialize<List<Movie>>(await File.ReadAllTextAsync(Path.Combine(AppContext.BaseDirectory, "seed.json"), ct), Json)!;
-            foreach (var movie in seed) await Upsert(movie, ct);
+            var archivePath = Path.Combine(AppContext.BaseDirectory, "archive.seed.json");
+            if (File.Exists(archivePath))
+            {
+                var knownIds = seed.Select(movie => movie.Id).ToHashSet();
+                var archive = JsonSerializer.Deserialize<List<Movie>>(
+                    await File.ReadAllTextAsync(archivePath, ct), Json) ?? [];
+                seed.AddRange(archive.Where(movie => knownIds.Add(movie.Id)));
+            }
+
+            await SeedMany(seed, ct);
         }
+    }
+
+    async Task SeedMany(IReadOnlyList<Movie> movies, CancellationToken ct)
+    {
+        await using var connection = await db.OpenConnectionAsync(ct);
+        await using var transaction = await connection.BeginTransactionAsync(ct);
+        const int batchSize = 500;
+        for (var start = 0; start < movies.Count; start += batchSize)
+        {
+            var batch = movies.Skip(start).Take(batchSize).ToList();
+            var values = new List<string>(batch.Count);
+            await using var command = new NpgsqlCommand { Connection = connection, Transaction = transaction };
+            for (var index = 0; index < batch.Count; index++)
+            {
+                var movie = batch[index];
+                movie.UpdatedAt ??= DateTimeOffset.UtcNow;
+                values.Add($"(@id{index},@title{index},@year{index},@genres{index},@data{index})");
+                command.Parameters.AddWithValue($"id{index}", movie.Id);
+                command.Parameters.AddWithValue($"title{index}", movie.Title);
+                command.Parameters.AddWithValue($"year{index}", movie.Year);
+                command.Parameters.AddWithValue($"genres{index}", movie.Genres);
+                command.Parameters.AddWithValue(
+                    $"data{index}",
+                    NpgsqlDbType.Jsonb,
+                    JsonSerializer.Serialize(movie, Json));
+            }
+
+            command.CommandText = $"INSERT INTO movies(id,title,release_year,genres,payload) VALUES {string.Join(',', values)} ON CONFLICT(id) DO NOTHING";
+            await command.ExecuteNonQueryAsync(ct);
+        }
+
+        await transaction.CommitAsync(ct);
     }
     public async Task<MoviePage> List(string? q, int? year, string? genre, string sort, int page, int size, string? mediaType, string? language, CancellationToken ct)
     {
         var order = sort switch { "new" => "release_year DESC,id", "old" => "release_year,id", "title" => "title,id", "rating" => "(payload->>'score')::float DESC NULLS LAST,id", _ => "(payload->>'featured')::boolean DESC,id" };
-        var where = "deleted_at IS NULL AND (@q='' OR payload::text ILIKE @pattern) AND (@year=0 OR release_year=@year) AND (@genre='' OR @genre=ANY(genres)) AND (@type='' OR COALESCE(payload->>'mediaType','movie')=@type) AND (@language='' OR COALESCE(payload->'languages','[]'::jsonb) ? @language)";
+        var where = "deleted_at IS NULL AND (@q='' OR search_vector @@ websearch_to_tsquery('simple',@q) OR lower(title) LIKE @prefix ESCAPE '\\') AND (@year=0 OR release_year=@year) AND (@genre='' OR @genre=ANY(genres)) AND (@type='' OR COALESCE(payload->>'mediaType','movie')=@type) AND (@language='' OR COALESCE(payload->'languages','[]'::jsonb) ? @language)";
         await using var cmd = db.CreateCommand($"SELECT payload FROM movies WHERE {where} ORDER BY {order} LIMIT @size OFFSET @offset");
         AddFilters(cmd, q, year, genre, mediaType, language); cmd.Parameters.AddWithValue("size", size); cmd.Parameters.AddWithValue("offset", (page - 1) * size);
         var list = new List<Movie>(); await using (var reader = await cmd.ExecuteReaderAsync(ct)) { while (await reader.ReadAsync(ct)) list.Add(JsonSerializer.Deserialize<Movie>(reader.GetString(0), Json)!); }
         await using var count = db.CreateCommand($"SELECT count(*) FROM movies WHERE {where}"); AddFilters(count, q, year, genre, mediaType, language);
         return new(list, Convert.ToInt32(await count.ExecuteScalarAsync(ct)), page, size);
     }
-    static void AddFilters(NpgsqlCommand cmd, string? q, int? year, string? genre, string? mediaType, string? language) { cmd.Parameters.AddWithValue("q", q ?? ""); cmd.Parameters.AddWithValue("pattern", "%" + (q ?? "").Replace("\\", "\\\\").Replace("%", "\\%").Replace("_", "\\_") + "%"); cmd.Parameters.AddWithValue("year", year ?? 0); cmd.Parameters.AddWithValue("genre", genre ?? ""); cmd.Parameters.AddWithValue("type", mediaType ?? ""); cmd.Parameters.AddWithValue("language", language ?? ""); }
+    static void AddFilters(NpgsqlCommand cmd, string? q, int? year, string? genre, string? mediaType, string? language) { var search = q?.Trim() ?? ""; cmd.Parameters.AddWithValue("q", search); cmd.Parameters.AddWithValue("prefix", search.ToLowerInvariant().Replace("\\", "\\\\").Replace("%", "\\%").Replace("_", "\\_") + "%"); cmd.Parameters.AddWithValue("year", year ?? 0); cmd.Parameters.AddWithValue("genre", genre ?? ""); cmd.Parameters.AddWithValue("type", mediaType ?? ""); cmd.Parameters.AddWithValue("language", language ?? ""); }
     public async Task<Movie?> Get(long id, CancellationToken ct) { await using var cmd = db.CreateCommand("SELECT payload FROM movies WHERE id=@id AND deleted_at IS NULL"); cmd.Parameters.AddWithValue("id", id); var s = await cmd.ExecuteScalarAsync(ct); return s is string json ? JsonSerializer.Deserialize<Movie>(json, Json) : null; }
     public async Task Upsert(Movie m, CancellationToken ct)
     {

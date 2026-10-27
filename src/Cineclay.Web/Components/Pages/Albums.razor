@@ -9,7 +9,10 @@
             <span class="eyebrow">Music across the years</span>
             <h1>Albums & songs</h1>
         </div>
-        <p>Odia, Hindi and English music from 2000 to @DateTime.Now.Year.</p>
+        <div class="album-catalog-total">
+            <strong>@CatalogTotal.ToString("N0")</strong>
+            <span>albums across languages · 2000–@DateTime.Now.Year</span>
+        </div>
     </div>
 
     @if (Error is not null)
@@ -23,12 +26,31 @@
             <input type="search" aria-label="Search albums and songs" placeholder="Search albums, songs, artists…" @bind="Query" @bind:event="oninput" @onkeyup="SearchKey" />
         </label>
         <button class="secondary" @onclick="Search">Search</button>
+        <label class="preview-filter">
+            <input type="checkbox" @bind="PlayableOnly" @bind:after="Search" />
+            <span>▶ Playable previews</span>
+        </label>
         <select aria-label="Music language" @bind="Language" @bind:after="Search">
             <option value="">All languages</option>
             <option>Odia</option>
             <option>Hindi</option>
             <option>English</option>
+            <option>Telugu</option>
+            <option>Malayalam</option>
+            <option>Tamil</option>
+            <option>Kannada</option>
+            <option>Bengali</option>
+            <option>Marathi</option>
+            <option>Punjabi</option>
+            <option>Japanese</option>
+            <option>Korean</option>
+            <option>Spanish</option>
+            <option>French</option>
         </select>
+        <div class="album-view-toggle" role="group" aria-label="Album layout">
+            <button class="@(ViewMode == "grid" ? "active" : "")" aria-pressed="@(ViewMode == "grid" ? "true" : "false")" @onclick="ShowGrid">▦ Grid</button>
+            <button class="@(ViewMode == "list" ? "active" : "")" aria-pressed="@(ViewMode == "list" ? "true" : "false")" @onclick="ShowList">☷ List</button>
+        </div>
         <select aria-label="Release year" @bind="Year" @bind:after="Search">
             <option value="">All years</option>
             @for (var year = DateTime.Now.Year; year >= 2000; year--)
@@ -47,26 +69,55 @@
                 <small>Loading albums and songs…</small>
             </div>
         }
-        <div class="album-grid @(Busy ? "is-loading" : "")">
+        <div class="album-grid @(ViewMode == "list" ? "album-list" : "") @(Busy ? "is-loading" : "")">
             @foreach (var album in AlbumItems)
             {
                 <article class="album-card">
-                    <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
+                    @if (album.Songs.Count > 0)
+                    {
+                        <button class="album-cover" @onclick="() => Open(album, album.Songs[0])" aria-label="Play @album.Title">
+                            <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
+                            <span class="album-year">@album.Year · Preview</span>
+                            <span class="album-play" aria-hidden="true">▶</span>
+                        </button>
+                    }
+                    else
+                    {
+                        <a class="album-cover album-cover-fallback" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer" aria-label="Find @album.Title on YouTube">
+                            <span class="album-art-title">@album.Title</span>
+                            <span class="album-year">@album.Year</span>
+                            <span class="album-play" aria-hidden="true">↗</span>
+                        </a>
+                    }
                     <div class="album-copy">
-                        <span class="eyebrow">@album.Language · @album.Year</span>
-                        <h2>@album.Title</h2>
+                        <span class="eyebrow">@album.Language music</span>
+                        @if (album.Songs.Count > 0)
+                        {
+                            <h2><button @onclick="() => Open(album, album.Songs[0])">@album.Title</button></h2>
+                        }
+                        else
+                        {
+                            <h2><a href="@album.SourceUrl" target="_blank" rel="noopener noreferrer">@album.Title</a></h2>
+                        }
                         <p>@album.Artist</p>
-                        <ol>
-                            @foreach (var song in album.Songs)
-                            {
-                                <li>
-                                    <a href="https://www.youtube.com/watch?v=@song.YouTubeVideoId" target="_blank" rel="noopener noreferrer">
-                                        <span>▷</span>
-                                        <span><strong>@song.Title</strong><small>@song.Artist</small></span>
-                                    </a>
-                                </li>
-                            }
-                        </ol>
+                        @if (album.Songs.Count > 0)
+                        {
+                            <ol>
+                                @foreach (var song in album.Songs)
+                                {
+                                    <li>
+                                        <button class="album-song" @onclick="() => Open(album, song)">
+                                            <span>▷</span>
+                                            <span><strong>@song.Title</strong><small>@song.Artist</small></span>
+                                        </button>
+                                    </li>
+                                }
+                            </ol>
+                        }
+                        else
+                        {
+                            <a class="album-youtube-link" href="@album.SourceUrl" target="_blank" rel="noopener noreferrer">YouTube results <span>↗</span></a>
+                        }
                     </div>
                 </article>
             }
@@ -85,7 +136,7 @@
         <button class="page-direction" disabled="@(Page == 1 || Busy)" @onclick="Previous"><span aria-hidden="true">←</span> Previous</button>
         <div class="page-status">
             <strong>@Total.ToString("N0") albums</strong>
-            <span>Odia, Hindi and English collections</span>
+            <span>@(Language == "" ? "Music across languages" : $"{Language} music")</span>
         </div>
         <div class="page-numbers">
             @for (var number = Math.Max(1, Page - 2); number <= Math.Min(PageCount, Page + 2); number++)
@@ -99,17 +150,54 @@
     </nav>
 </section>
 
+@if (SelectedAlbum is not null && SelectedSong is not null)
+{
+    <div class="modal-overlay music-overlay" @onclick="Close">
+        <section class="native-modal music-modal" role="dialog" aria-modal="true" aria-label="@SelectedSong.Title" @onclick:stopPropagation="true">
+            <div class="modal-header">
+                <div>
+                    <span class="eyebrow">@SelectedAlbum.Language · @SelectedAlbum.Year</span>
+                    <h2>@SelectedSong.Title</h2>
+                    <p>@SelectedSong.Artist · @SelectedAlbum.Title</p>
+                </div>
+                <button class="close" @onclick="Close" aria-label="Close video">×</button>
+            </div>
+            <iframe class="album-video" src="@VideoUrl" title="@SelectedSong.Title" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="music-modal-body">
+                <h3>Tracks in this collection</h3>
+                <div class="modal-track-list">
+                    @foreach (var song in SelectedAlbum.Songs)
+                    {
+                        <button class="@(song.YouTubeVideoId == SelectedSong.YouTubeVideoId ? "active" : "")" @onclick="() => SelectSong(song)">
+                            <span>▷</span><span><strong>@song.Title</strong><small>@song.Artist</small></span>
+                        </button>
+                    }
+                </div>
+                <a class="watch-link" href="https://www.youtube.com/watch?v=@SelectedSong.YouTubeVideoId" target="_blank" rel="noopener noreferrer">Open on YouTube ↗</a>
+            </div>
+        </section>
+    </div>
+}
+
 @code {
     readonly List<Album> AlbumItems = [];
     string Query = "";
-    string Language = "";
+    string Language = "Odia";
     string Year = "";
+    string ViewMode = "grid";
     string? Error;
+    Album? SelectedAlbum;
+    Song? SelectedSong;
     int Page = 1;
     int Total;
+    int CatalogTotal;
     bool Busy;
+    bool PlayableOnly;
     int LoadVersion;
     int PageCount => Math.Max(1, (int)Math.Ceiling(Total / 12.0));
+    string VideoUrl => SelectedSong is null
+        ? ""
+        : $"https://www.youtube-nocookie.com/embed/{SelectedSong.YouTubeVideoId}?autoplay=1&rel=0";
 
     protected override async Task OnInitializedAsync() => await Load();
 
@@ -120,7 +208,12 @@
         Error = null;
         try
         {
-            var result = await Api.Albums(Query, Language, Year, Page, 12);
+            if (CatalogTotal == 0)
+            {
+                CatalogTotal = (await Api.Stats()).Albums;
+            }
+
+            var result = await Api.Albums(Query, Language, Year, PlayableOnly, Page, 12);
             if (version != LoadVersion)
             {
                 return;
@@ -132,7 +225,10 @@
         }
         catch (Exception exception) when (exception is HttpRequestException or TaskCanceledException)
         {
-            Error = "The music catalog is unavailable. Check the API and database connection.";
+            if (version == LoadVersion)
+            {
+                Error = "The music catalog is unavailable. Check the API and database connection.";
+            }
         }
         finally
         {
@@ -173,5 +269,23 @@
     {
         Page = destination;
         await Load();
+    }
+
+    void Open(Album album, Song song)
+    {
+        SelectedAlbum = album;
+        SelectedSong = song;
+    }
+
+    void SelectSong(Song song) => SelectedSong = song;
+
+    void ShowGrid() => ViewMode = "grid";
+
+    void ShowList() => ViewMode = "list";
+
+    void Close()
+    {
+        SelectedAlbum = null;
+        SelectedSong = null;
     }
 }

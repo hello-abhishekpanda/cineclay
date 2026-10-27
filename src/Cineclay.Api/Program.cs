@@ -106,6 +106,7 @@ app.MapGet("/api/albums", async (
     string? q,
     string? language,
     int? year,
+    bool? playable,
     int? page,
     int? pageSize,
     AlbumStore database,
@@ -113,6 +114,7 @@ app.MapGet("/api/albums", async (
         q,
         language,
         year,
+        playable ?? false,
         Math.Clamp(page ?? 1, 1, 100000),
         Math.Clamp(pageSize ?? 24, 1, 100),
         cancellationToken)));
@@ -155,6 +157,28 @@ admin.MapPut("/albums/{id:long}", async (
     await database.Upsert(album, cancellationToken);
     return Results.Ok(album);
 });
+admin.MapPost("/albums/import", async (
+    List<Album> albums,
+    AlbumStore database,
+    CancellationToken cancellationToken) =>
+{
+    if (albums.Count is < 1 or > 1000)
+    {
+        return Results.BadRequest(new { error = "Import batches must contain 1–1,000 albums." });
+    }
+
+    for (var index = 0; index < albums.Count; index++)
+    {
+        var error = albums[index].Validate();
+        if (albums[index].Id <= 0 || error is not null)
+        {
+            return Results.BadRequest(new { index, error = error ?? "Positive ID required." });
+        }
+    }
+
+    await database.UpsertMany(albums, cancellationToken);
+    return Results.Ok(new { imported = albums.Count });
+}).RequireRateLimiting("imports");
 admin.MapPost("/import/movie/{id:int}", async (
     int id,
     TmdbImporter tmdb,

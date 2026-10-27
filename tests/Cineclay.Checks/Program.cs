@@ -94,5 +94,10 @@ var album = new Album
 Check(album.Validate() is null, "Valid album");
 album.Year = DateTime.UtcNow.Year + 1;
 Check(album.Validate() is not null, "Reject future album year");
+album.Year = 2024;
+album.Cover = "";
+album.SourceUrl = "https://www.youtube.com/results?search_query=Odia+album";
+album.Songs = [];
+Check(album.Validate() is null, "Allow metadata album with YouTube search link");
 
 Console.WriteLine($"{count} model and URL validation checks passed.");

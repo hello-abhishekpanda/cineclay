@@ -18,39 +18,40 @@ public sealed class AlbumStore(NpgsqlDataSource db)
             await File.ReadAllTextAsync(seedPath, cancellationToken),
             new System.Text.Json.JsonSerializerOptions(System.Text.Json.JsonSerializerDefaults.Web)) ?? [];
 
-        foreach (var album in albums)
-        {
-            await Upsert(album, cancellationToken);
-        }
+        await UpsertMany(albums, cancellationToken);
     }
 
     public async Task<AlbumPage> List(
         string? query,
         string? language,
         int? year,
+        bool playableOnly,
         int page,
         int pageSize,
         CancellationToken cancellationToken)
     {
-        const string where = "(@query = '' OR a.title ILIKE @pattern OR a.artist ILIKE @pattern OR EXISTS "
-            + "(SELECT 1 FROM songs s WHERE s.album_id = a.id AND s.title ILIKE @pattern)) "
-            + "AND (@language = '' OR a.language = @language) AND (@year = 0 OR a.release_year = @year)";
+        const string where = "(@query = '' OR a.search_vector @@ websearch_to_tsquery('simple', @query) "
+            + "OR lower(a.title) LIKE @prefix ESCAPE '\\' OR EXISTS (SELECT 1 FROM songs s "
+            + "WHERE s.album_id = a.id AND s.search_vector @@ websearch_to_tsquery('simple', @query))) "
+            + "AND (@language = '' OR a.language = @language) AND (@year = 0 OR a.release_year = @year) "
+            + "AND (NOT @playable OR EXISTS (SELECT 1 FROM songs preview WHERE preview.album_id = a.id))";
 
         await using var command = db.CreateCommand($"""
             WITH filtered AS (
                 SELECT a.*
                 FROM albums a
                 WHERE {where}
-                ORDER BY a.release_year DESC, a.title
+                ORDER BY EXISTS (SELECT 1 FROM songs preview WHERE preview.album_id = a.id) DESC,
+                         a.release_year DESC, a.title
                 LIMIT @page_size OFFSET @offset
             )
             SELECT a.id, a.title, a.release_year, a.language, a.artist, a.cover_url, a.source_url,
                    s.youtube_video_id, s.title, s.artist, s.thumbnail_url, s.published_at
             FROM filtered a
-            JOIN songs s ON s.album_id = a.id
+            LEFT JOIN songs s ON s.album_id = a.id
             ORDER BY a.release_year DESC, a.title, s.title
             """);
-        AddFilters(command, query, language, year);
+        AddFilters(command, query, language, year, playableOnly);
         command.Parameters.AddWithValue("page_size", pageSize);
         command.Parameters.AddWithValue("offset", (page - 1) * pageSize);
 
@@ -75,28 +76,50 @@ public sealed class AlbumStore(NpgsqlDataSource db)
                     albums[id] = album;
                 }
 
-                album.Songs.Add(new Song
+                if (!reader.IsDBNull(7))
                 {
-                    YouTubeVideoId = reader.GetString(7),
-                    Title = reader.GetString(8),
-                    Artist = reader.GetString(9),
-                    Thumbnail = reader.GetString(10),
-                    PublishedAt = reader.IsDBNull(11) ? null : reader.GetFieldValue<DateTimeOffset>(11)
-                });
+                    album.Songs.Add(new Song
+                    {
+                        YouTubeVideoId = reader.GetString(7),
+                        Title = reader.GetString(8),
+                        Artist = reader.GetString(9),
+                        Thumbnail = reader.GetString(10),
+                        PublishedAt = reader.IsDBNull(11) ? null : reader.GetFieldValue<DateTimeOffset>(11)
+                    });
+                }
             }
         }
 
         await using var count = db.CreateCommand($"SELECT count(*) FROM albums a WHERE {where}");
-        AddFilters(count, query, language, year);
+        AddFilters(count, query, language, year, playableOnly);
         var total = Convert.ToInt32(await count.ExecuteScalarAsync(cancellationToken));
         return new AlbumPage(albums.Values.ToList(), total, page, pageSize);
     }
 
     public async Task Upsert(Album album, CancellationToken cancellationToken)
     {
+        await UpsertMany([album], cancellationToken);
+    }
+
+    public async Task UpsertMany(IReadOnlyCollection<Album> albums, CancellationToken cancellationToken)
+    {
         await using var connection = await db.OpenConnectionAsync(cancellationToken);
         await using var transaction = await connection.BeginTransactionAsync(cancellationToken);
 
+        foreach (var album in albums)
+        {
+            await Upsert(album, connection, transaction, cancellationToken);
+        }
+
+        await transaction.CommitAsync(cancellationToken);
+    }
+
+    static async Task Upsert(
+        Album album,
+        NpgsqlConnection connection,
+        NpgsqlTransaction transaction,
+        CancellationToken cancellationToken)
+    {
         await using (var command = new NpgsqlCommand("""
             INSERT INTO albums(id, title, release_year, language, artist, cover_url, source_url)
             VALUES(@id, @title, @year, @language, @artist, @cover, @source)
@@ -120,6 +143,15 @@ public sealed class AlbumStore(NpgsqlDataSource db)
             await command.ExecuteNonQueryAsync(cancellationToken);
         }
 
+        await using (var delete = new NpgsqlCommand(
+            "DELETE FROM songs WHERE album_id = @album",
+            connection,
+            transaction))
+        {
+            delete.Parameters.AddWithValue("album", album.Id);
+            await delete.ExecuteNonQueryAsync(cancellationToken);
+        }
+
         foreach (var song in album.Songs)
         {
             await using var command = new NpgsqlCommand("""
@@ -140,18 +172,22 @@ public sealed class AlbumStore(NpgsqlDataSource db)
             command.Parameters.AddWithValue("published", (object?)song.PublishedAt ?? DBNull.Value);
             await command.ExecuteNonQueryAsync(cancellationToken);
         }
-
-        await transaction.CommitAsync(cancellationToken);
     }
 
-    static void AddFilters(NpgsqlCommand command, string? query, string? language, int? year)
+    static void AddFilters(
+        NpgsqlCommand command,
+        string? query,
+        string? language,
+        int? year,
+        bool playableOnly)
     {
         var normalizedQuery = query?.Trim() ?? "";
         command.Parameters.AddWithValue("query", normalizedQuery);
         command.Parameters.AddWithValue(
-            "pattern",
-            $"%{normalizedQuery.Replace("\\", "\\\\").Replace("%", "\\%").Replace("_", "\\_")}%");
+            "prefix",
+            $"{normalizedQuery.ToLowerInvariant().Replace("\\", "\\\\").Replace("%", "\\%").Replace("_", "\\_")}%");
         command.Parameters.AddWithValue("language", language?.Trim() ?? "");
         command.Parameters.AddWithValue("year", year ?? 0);
+        command.Parameters.AddWithValue("playable", playableOnly);
     }
 }

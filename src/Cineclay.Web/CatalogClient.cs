@@ -49,6 +49,7 @@ public sealed class CatalogClient(HttpClient http)
         string q = "",
         string language = "",
         string year = "",
+        bool playable = false,
         int page = 1,
         int size = 24)
     {
@@ -65,6 +66,10 @@ public sealed class CatalogClient(HttpClient http)
         Add("q", q);
         Add("language", language);
         Add("year", year);
+        if (playable)
+        {
+            parameters.Add("playable=true");
+        }
 
         var url = $"/api/albums?{string.Join("&", parameters)}";
         return await http.GetFromJsonAsync<AlbumPage>(url) ?? new AlbumPage([], 0, page, size);

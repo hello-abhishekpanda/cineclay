@@ -30,23 +30,41 @@ To run the static preview alone, serve `dist/` using an HTTP server, for example
 
 ## Catalog and sources
 
-The checked-in preview currently indexes 12,427 movies and 106 TV series, including 199 Odia-language titles from selected year-list references. This is a snapshot, not an exhaustive worldwide catalog. Many archive records have only a title, year and other information available in their sources. Missing summaries, posters, genres and watch links are not inferred. `scripts/odia-references.json` records the source year pages; rerun `python3 scripts/add_odia_snapshot.py` after changing those references.
+The checked-in preview currently indexes 12,451 movies and 163 TV series, including 199 Odia-language titles from selected year-list references. This is a snapshot, not an exhaustive worldwide catalog. Many archive records have only a title, year and other information available in their sources. Missing summaries, posters, genres and watch links are not inferred. `scripts/odia-references.json` records the source year pages; rerun `python3 scripts/add_odia_snapshot.py` after changing those references.
 
 TV series metadata is sourced from TVmaze; the wider film archive includes Wikipedia year lists. Curated entries include source links where available. Some trailers, artwork and logos are owned by their respective creators and providers; use and redistribution are subject to their terms. The DAMaN trailer linked in the snapshot is the Hindi trailer. The newest-title carousel reflects this catalog, not an independently measured global popularity chart. Any sample scores in the development data are not a public ratings service.
 
 Streaming services and availability vary by location and change over time. An official service logo in the platform directory links to its catalog; a title-specific provider link is shown only when recorded. A provider's title page is not proof of a currently available subscription or free offer. Otherwise Cineclay links to a JustWatch search, not a verified offer. Free-catalog labels describe the service, not every title on it.
 
-The API seeds its initial enriched catalog. For the public archive, use the import utility in `scripts/load_public_catalog.py` and its help output, configuring it for the target local API. Importing is an explicit operation; it is not performed on the static preview.
+On an empty database, the API seeds both the enriched catalog and the checked-in public movie archive in batches. Use `scripts/load_public_catalog.py` to refresh an existing database after changing the snapshot. The static preview loads the same archive in the background.
 
 ## Albums and YouTube import
 
-The initial album seed contains a small set of direct YouTube links. To discover Odia, Hindi and English music metadata for every year from 2000 through the actual current year, enable the YouTube Data API v3, set `YOUTUBE_API_KEY`, and run:
+The checked-in album seed contains 5,001 real release records from MusicBrainz across Indian and international languages. Each metadata-only record links to a title-and-artist search on YouTube; the smaller curated subset with verified video IDs opens in Cineclay's embedded player. Odia is the default Albums filter.
+
+Regenerate the 5,001-record metadata catalog and apply it to a running API with:
 
 ```bash
-python3 scripts/import_youtube_albums.py
+set -a
+source .env
+set +a
+python3 scripts/import_musicbrainz_albums.py --target 5001 --apply-url http://localhost:5081
 ```
 
-The script uses the supported YouTube Data API rather than scraping HTML. Its default 81 searches (three languages across 27 years in 2026) consume about 8,100 quota units, so review your Google Cloud quota before running it. Results are metadata and links only; no audio or video is downloaded. To apply results to a running local API, also set `ADMIN_API_KEY` and add `--apply-url http://localhost:5081`. Search metadata cannot independently prove a song's original release year, so the generated year groups reflect the year-constrained YouTube search and should be editorially reviewed.
+The MusicBrainz importer uses the supported JSON web service, sends an identifiable user agent, stays within the published one-request-per-second rate, limits releases to 2000 through the actual current year, and constructs HTTPS YouTube search links without scraping YouTube pages.
+
+After regenerating the API seed, refresh the dependency-free preview copy with `python3 scripts/sync_static_albums.py`. The Albums page searches titles, artists and songs as you type and can be narrowed to releases with an embedded YouTube preview.
+
+For records with verified direct YouTube video IDs, the separate resumable YouTube importer supports Odia, Hindi, English, Telugu, Malayalam, Tamil, Kannada, Bengali, Marathi and Punjabi music:
+
+```bash
+set -a
+source .env
+set +a
+python3 scripts/import_youtube_albums.py --output albums.youtube.json --target 5001
+```
+
+The direct-video importer requires `YOUTUBE_API_KEY` in the untracked `.env` file. It uses the supported YouTube Data API rather than scraping HTML, makes at most 95 searches per run by default and deduplicates video IDs. If it reports that the target was not reached, rerun the same command after the YouTube search quota resets; the checkpoint prevents completed language/year searches from being repeated. Neither importer downloads audio or video.
 
 ## Database setup
 

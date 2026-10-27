@@ -1,10 +1,10 @@
 {
   "fetchedAt": "2026-10-27",
   "scope": "Wikipedia American, Hindi, and selected Odia film lists; selected TVmaze series. Not a complete worldwide catalog.",
-  "movies": 12427,
-  "tvSeries": 106,
+  "movies": 12451,
+  "tvSeries": 163,
   "indexOnly": 12396,
-  "enriched": 137,
+  "enriched": 218,
   "sources": [
     {
       "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1990",
@@ -465,9 +465,9 @@
     "Korean",
     "Malayalam",
     "Marathi",
-    "Odia",
     "Panjabi",
     "Spanish",
+    "Swedish",
     "Tamil",
     "Telugu",
     "Turkish"

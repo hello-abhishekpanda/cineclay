@@ -10,6 +10,7 @@
     <ProjectReference Include="../Cineclay.Shared/Cineclay.Shared.csproj" />
     <Content Update="seed.json" CopyToOutputDirectory="PreserveNewest" />
     <Content Update="albums.seed.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../dist/archive.json" Link="archive.seed.json" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="schema.sql" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>

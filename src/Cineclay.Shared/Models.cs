@@ -144,10 +144,9 @@ public sealed class Album
         }
 
         if ((!string.IsNullOrEmpty(Cover) && !Movie.Https(Cover))
-            || (!string.IsNullOrEmpty(SourceUrl) && !Movie.Https(SourceUrl))
-            || Songs.Count == 0)
+            || !Movie.Https(SourceUrl))
         {
-            return "Albums need at least one song and all links must use HTTPS.";
+            return "Albums need an HTTPS source link, and cover links must use HTTPS.";
         }
 
         return Songs.Select(song => song.Validate()).FirstOrDefault(error => error is not null);
