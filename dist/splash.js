@@ -1,20 +1,21 @@
 (() => {
   if (location.pathname !== "/" || document.querySelector(".cinema-splash")) return;
 
-  const storageKey = "cineclay.splash.v3";
+  const storageKey = "cineclay.splash.v4";
   try {
     if (sessionStorage.getItem(storageKey)) return;
   } catch {}
 
   const slides = [
-    { industry: "Hollywood", mark: "H", type: "Movie", title: "Dune: Part Two", year: 2024, note: "Epic worlds. Monumental cinema.", video: "Way9Dexny3w", art: "posters/dune.jpg" },
-    { industry: "Bollywood", mark: "ब", type: "Movie", title: "Jawan", year: 2023, note: "Scale, rhythm and a hero made for the big screen.", video: "COv52Qyctws", art: "https://images.herzindagi.info/image/2024/Jul/jawan-cast.jpg" },
-    { industry: "Ollywood", mark: "ଓ", type: "Movie", title: "Pratikshya", year: 2022, note: "Stories rooted in Odisha, made for the world.", video: "E_p4kHzZBTM", art: "https://m.media-amazon.com/images/M/MV5BN2U0ZjJiNWUtM2M5Ni00ZDEzLWFlMTAtZWU2ZWQyZTY5MGYwXkEyXkFqcGc%40._V1_.jpg" },
-    { industry: "Korean Cinema", mark: "한", type: "Movie", title: "Parasite", year: 2019, note: "Fearless storytelling without borders.", video: "5xH0HfJHsaY", art: "posters/parasite.jpg" },
-    { industry: "Japanese Animation", mark: "ア", type: "Movie", title: "Spirited Away", year: 2001, note: "Hand-crafted wonder. A timeless journey.", video: "ByXuk9QqQkk", art: "posters/spirited.jpg" },
-    { industry: "Global Television", mark: "TV", type: "Series", title: "Wednesday", year: 2022, note: "Distinctive worlds built one episode at a time.", video: "Di310WS8zLk", art: "https://static.tvmaze.com/uploads/images/original_untouched/586/1466410.jpg" },
-    { industry: "Prestige Sci-Fi", mark: "S", type: "Series", title: "Severance", year: 2022, note: "Bold ideas. Meticulous television.", video: "_UXKlYvLGJY", art: "https://static.tvmaze.com/uploads/images/original_untouched/548/1371406.jpg" },
-    { industry: "Indian Music", mark: "♪", type: "Album", title: "Odia Songs of 2022", year: 2022, note: "Regional voices, unforgettable melodies.", video: "I6Bs8xOwr4g", art: "https://i.ytimg.com/vi/I6Bs8xOwr4g/maxresdefault.jpg" }
+    { industry: "Hollywood", region: "American cinema", mark: "H", type: "Movie", title: "Dune: Part Two", year: 2024, note: "Epic worlds. Monumental cinema.", video: "Way9Dexny3w", art: "posters/dune.jpg" },
+    { industry: "Bollywood", region: "Hindi cinema", mark: "ब", type: "Movie", title: "Jawan", year: 2023, note: "Scale, rhythm and a hero made for the big screen.", video: "COv52Qyctws", art: "https://images.herzindagi.info/image/2024/Jul/jawan-cast.jpg" },
+    { industry: "Ollywood", region: "Odia cinema", mark: "ଓ", type: "Movie", title: "DAMaN", year: 2022, note: "Stories rooted in Odisha, made for the world.", video: "MOckS35r8yE", art: "https://images.justwatch.com/poster/297596886/s718/daman.jpg" },
+    { industry: "Tollywood", region: "Telugu cinema", mark: "తె", type: "Movie", title: "RRR", year: 2022, note: "Mythic action and Telugu spectacle on a global stage.", video: "NgBoMJy386M", art: "https://i.ytimg.com/vi/NgBoMJy386M/maxresdefault.jpg" },
+    { industry: "Kollywood", region: "Tamil cinema", mark: "த", type: "Movie", title: "Vikram", year: 2022, note: "Tamil cinema with pulse, scale and fearless craft.", video: "OKBMCL-frPU", art: "https://i.ytimg.com/vi/OKBMCL-frPU/maxresdefault.jpg" },
+    { industry: "Mollywood", region: "Malayalam cinema", mark: "മ", type: "Movie", title: "Manjummel Boys", year: 2024, note: "Human stories and meticulous Malayalam filmmaking.", video: "UM7PPfz8LQU", art: "https://i.ytimg.com/vi/UM7PPfz8LQU/maxresdefault.jpg" },
+    { industry: "Sandalwood", region: "Kannada cinema", mark: "ಕ", type: "Movie", title: "Kantara", year: 2022, note: "Kannada folklore, land and belief in cinematic form.", video: "8mrVmf239GU", art: "https://i.ytimg.com/vi/8mrVmf239GU/maxresdefault.jpg" },
+    { industry: "Korean Cinema", region: "South Korean cinema", mark: "한", type: "Movie", title: "Parasite", year: 2019, note: "Fearless storytelling without borders.", video: "5xH0HfJHsaY", art: "posters/parasite.jpg" },
+    { industry: "Japanese Cinema", region: "Japanese animation", mark: "ア", type: "Movie", title: "Spirited Away", year: 2001, note: "Hand-crafted wonder. A timeless journey.", video: "ByXuk9QqQkk", art: "posters/spirited.jpg" }
   ];
 
   const overlay = document.createElement("section");
@@ -39,7 +40,7 @@
       </div>
     </div>
     <div class="splash-rail" role="tablist" aria-label="Industry spotlights">
-      ${slides.map((slide, index) => `<button role="tab" data-industry="${index}" aria-label="${slide.industry}: ${slide.title}"><span>${slide.mark}</span><div><strong>${slide.industry}</strong><small>${slide.title}</small></div></button>`).join("")}
+      ${slides.map((slide, index) => `<button role="tab" data-industry="${index}" aria-label="${slide.industry}, ${slide.region}: ${slide.title}"><span>${slide.mark}</span><div><strong>${slide.industry}</strong><small>${slide.region}</small></div></button>`).join("")}
     </div>
     <div class="splash-progress" aria-hidden="true"><i></i></div>
     <button class="skip-splash" id="skip-splash">Skip intro ×</button>`;
