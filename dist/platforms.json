@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Netflix",
+    "key": "netflix",
+    "url": "https://www.netflix.com/",
+    "logo": "logos/netflix.ico"
+  },
+  {
+    "name": "Prime Video",
+    "key": "primevideo",
+    "url": "https://www.primevideo.com/",
+    "logo": "logos/primevideo.ico"
+  },
+  {
+    "name": "Apple TV",
+    "key": "appletv",
+    "url": "https://tv.apple.com/",
+    "logo": "logos/appletv.ico"
+  },
+  {
+    "name": "HBO Max",
+    "key": "hbomax",
+    "url": "https://www.hbomax.com/",
+    "logo": "logos/hbomax.svg"
+  },
+  {
+    "name": "Disney+",
+    "key": "disneyplus",
+    "url": "https://www.disneyplus.com/",
+    "logo": "logos/disneyplus.ico"
+  },
+  {
+    "name": "JioHotstar",
+    "key": "jiohotstar",
+    "url": "https://www.hotstar.com/",
+    "logo": "logos/jiohotstar.ico"
+  },
+  {
+    "name": "ZEE5",
+    "key": "zee5",
+    "url": "https://www.zee5.com/",
+    "logo": "logos/zee5.ico"
+  },
+  {
+    "name": "SonyLIV",
+    "key": "sonyliv",
+    "url": "https://www.sonyliv.com/",
+    "logo": "logos/sonyliv.ico"
+  },
+  {
+    "name": "Paramount+",
+    "key": "paramountplus",
+    "url": "https://www.paramountplus.com/",
+    "logo": "logos/paramountplus.ico"
+  },
+  {
+    "name": "Peacock",
+    "key": "peacock",
+    "url": "https://www.peacocktv.com/",
+    "logo": ""
+  },
+  {
+    "name": "Tubi",
+    "key": "tubi",
+    "url": "https://tubitv.com/",
+    "logo": "logos/tubi.ico",
+    "free": true
+  },
+  {
+    "name": "Plex",
+    "key": "plex",
+    "url": "https://watch.plex.tv/on-demand",
+    "logo": "",
+    "free": true
+  },
+  {
+    "name": "Pluto TV",
+    "key": "plutotv",
+    "url": "https://pluto.tv/",
+    "logo": "logos/plutotv.ico",
+    "free": true
+  },
+  {
+    "name": "YouTube",
+    "key": "youtube",
+    "url": "https://www.youtube.com/movies",
+    "logo": "logos/youtube.ico"
+  },
+  {
+    "name": "Crunchyroll",
+    "key": "crunchyroll",
+    "url": "https://www.crunchyroll.com/",
+    "logo": ""
+  }
+]

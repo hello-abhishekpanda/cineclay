@@ -1,0 +1,11 @@
+.env
+**/bin/
+**/obj/
+**/.keys/
+*.tar.gz
+*.zip
+.openai/*.local.*
+
+!dist/Cineclay.Source.zip
+
+.catalog-cache/

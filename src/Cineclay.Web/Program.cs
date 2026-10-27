@@ -1,0 +1,34 @@
+using Microsoft.AspNetCore.RateLimiting;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.RateLimiting;
+using Cineclay.Web;
+using Cineclay.Web.Components;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Antiforgery;
+using Microsoft.AspNetCore.DataProtection;
+var builder=WebApplication.CreateBuilder(args);
+var apiKey=builder.Configuration["ADMIN_API_KEY"]??throw new InvalidOperationException("ADMIN_API_KEY is required.");
+var password=builder.Configuration["ADMIN_PASSWORD"]??throw new InvalidOperationException("ADMIN_PASSWORD is required.");
+if(password.Length<16)throw new InvalidOperationException("ADMIN_PASSWORD must be at least 16 characters.");
+builder.Services.AddRazorComponents().AddInteractiveServerComponents();builder.Services.AddCascadingAuthenticationState();builder.Services.AddHttpContextAccessor();builder.Services.AddScoped<Visitor>();builder.Services.AddScoped<ClayDotSession>();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(o=>{o.LoginPath="/login";o.Cookie.Name="cineclay.admin";o.Cookie.HttpOnly=true;o.Cookie.SameSite=SameSiteMode.Strict;o.ExpireTimeSpan=TimeSpan.FromHours(8);});builder.Services.AddAuthorization();
+builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(builder.Configuration["KEYS_PATH"]??Path.Combine(builder.Environment.ContentRootPath,".keys")));
+builder.Services.AddHttpClient<CatalogClient>(c=>{c.BaseAddress=new Uri(builder.Configuration["API_URL"]??"http://localhost:5081");c.DefaultRequestHeaders.Add("X-Admin-Key",apiKey);c.Timeout=TimeSpan.FromMinutes(3);});
+builder.Services.AddRateLimiter(o=>{o.RejectionStatusCode=429;o.AddFixedWindowLimiter("login",x=>{x.PermitLimit=8;x.Window=TimeSpan.FromMinutes(1);x.QueueLimit=0;});});
+var app=builder.Build();if(!app.Environment.IsDevelopment())app.UseExceptionHandler("/error");
+app.UseStaticFiles();app.UseRateLimiter();app.UseAuthentication();app.UseAuthorization();
+app.Use(async(ctx,next)=>{ctx.Response.Headers["X-Content-Type-Options"]="nosniff";ctx.Response.Headers["Referrer-Policy"]="strict-origin-when-cross-origin";ctx.Response.Headers["X-Frame-Options"]="DENY";
+ var protector=ctx.RequestServices.GetRequiredService<IDataProtectionProvider>().CreateProtector("visitor-v1");string? id=null;
+ try{if(ctx.Request.Cookies.TryGetValue("cineclay.visitor",out var cookie))id=protector.Unprotect(cookie);}catch(CryptographicException){}
+ if(!Guid.TryParse(id,out _)){id=Guid.NewGuid().ToString();ctx.Response.Cookies.Append("cineclay.visitor",protector.Protect(id),new CookieOptions{HttpOnly=true,SameSite=SameSiteMode.Strict,Secure=ctx.Request.IsHttps,MaxAge=TimeSpan.FromDays(365)});}
+ ctx.Items["visitor"]=id;await next();});
+app.UseAntiforgery();
+app.MapPost("/auth/login",async(HttpContext ctx,IAntiforgery anti)=>{try{await anti.ValidateRequestAsync(ctx);}catch(AntiforgeryValidationException){return Results.BadRequest();}var form=await ctx.Request.ReadFormAsync();var user=builder.Configuration["ADMIN_USERNAME"]??"admin";
+ bool Same(string a,string b)=>CryptographicOperations.FixedTimeEquals(SHA256.HashData(Encoding.UTF8.GetBytes(a)),SHA256.HashData(Encoding.UTF8.GetBytes(b)));
+ if(!Same(form["username"].ToString(),user)||!Same(form["password"].ToString(),password))return Results.LocalRedirect("/login?failed=true");
+ await ctx.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,new ClaimsPrincipal(new ClaimsIdentity([new Claim(ClaimTypes.Name,user),new Claim(ClaimTypes.Role,"Admin")],CookieAuthenticationDefaults.AuthenticationScheme)));return Results.LocalRedirect("/admin");}).RequireRateLimiting("login");
+app.MapPost("/auth/logout",async(HttpContext ctx,IAntiforgery anti)=>{await anti.ValidateRequestAsync(ctx);await ctx.SignOutAsync();return Results.LocalRedirect("/");});
+app.MapRazorComponents<App>().AddInteractiveServerRenderMode();app.Run();

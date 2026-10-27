@@ -1,0 +1,5 @@
+<a class="watch-link" href="@Provider.Url" target="_blank" rel="noopener">@if(Logo(Provider.Name)!=""){<img class="ott-logo" src="@Logo(Provider.Name)" alt="@Provider.Name logo"/>}@Provider.Name · @(Provider.Type=="official-title"?"Official title page":Provider.Type) ↗</a>
+@code{
+ [Parameter,EditorRequired]public WatchProvider Provider{get;set;}=default!;
+ public static string Logo(string name){var n=name.ToLowerInvariant();var key=n.Contains("netflix")?"netflix":n.Contains("amazon")||n.Contains("prime")?"primevideo":n.Contains("apple")?"appletv":n.Contains("disney")?"disneyplus":n.Contains("hbo")||n.Contains("max")?"hbomax":n.Contains("hotstar")||n.Contains("jio")?"jiohotstar":n.Contains("zee")?"zee5":n.Contains("sony")?"sonyliv":n.Contains("paramount")?"paramountplus":n.Contains("tubi")?"tubi":n.Contains("pluto")?"plutotv":n.Contains("youtube")?"youtube":"";return key==""?"":$"logos/{key}.{(key is "hulu" or "hbomax"?"svg":"ico")}";}
+}

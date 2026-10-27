@@ -1,0 +1,5 @@
+@page "/login"
+@attribute [ExcludeFromInteractiveRouting]
+<PageTitle>Studio sign in — Cineclay</PageTitle>
+<section class="form-panel" style="margin:60px auto"><span class="eyebrow">Cineclay Studio</span><h1>Welcome back.</h1><p>Sign in to curate your collection.</p>@if(Failed){<p role="alert">Sign in failed. Check your credentials.</p>}<form action="/auth/login" method="post" data-enhance="false"><AntiforgeryToken/><div class="form-grid"><label class="full">Username<input name="username" autocomplete="username" required/></label><label class="full">Password<input name="password" type="password" autocomplete="current-password" required/></label></div><button class="primary">Sign in ↗</button></form></section>
+@code{[SupplyParameterFromQuery(Name="failed")]public bool Failed{get;set;}}

@@ -1,0 +1,475 @@
+{
+  "fetchedAt": "2026-10-27",
+  "scope": "Wikipedia American, Hindi, and selected Odia film lists; selected TVmaze series. Not a complete worldwide catalog.",
+  "movies": 12427,
+  "tvSeries": 106,
+  "indexOnly": 12396,
+  "enriched": 137,
+  "sources": [
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1990",
+      "count": 208,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1990",
+      "count": 109,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1991",
+      "count": 191,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1991",
+      "count": 120,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1992",
+      "count": 203,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1992",
+      "count": 90,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1993",
+      "count": 221,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1993",
+      "count": 83,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1994",
+      "count": 171,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1994",
+      "count": 110,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1995",
+      "count": 223,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1995",
+      "count": 64,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1996",
+      "count": 259,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1996",
+      "count": 93,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1997",
+      "count": 234,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1997",
+      "count": 80,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1998",
+      "count": 234,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1998",
+      "count": 86,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_1999",
+      "count": 211,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_1999",
+      "count": 81,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2000",
+      "count": 210,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2000",
+      "count": 71,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2001",
+      "count": 181,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2001",
+      "count": 58,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2002",
+      "count": 199,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2002",
+      "count": 77,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2003",
+      "count": 175,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2003",
+      "count": 90,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2004",
+      "count": 175,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2004",
+      "count": 84,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2005",
+      "count": 195,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2005",
+      "count": 99,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2006",
+      "count": 216,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2006",
+      "count": 75,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2007",
+      "count": 232,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2007",
+      "count": 87,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2008",
+      "count": 245,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2008",
+      "count": 87,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2009",
+      "count": 282,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2009",
+      "count": 83,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2010",
+      "count": 242,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2010",
+      "count": 107,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2011",
+      "count": 175,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2011",
+      "count": 100,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2012",
+      "count": 199,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2012",
+      "count": 93,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2013",
+      "count": 206,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2013",
+      "count": 117,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2014",
+      "count": 211,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2014",
+      "count": 125,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2015",
+      "count": 188,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2015",
+      "count": 106,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2016",
+      "count": 164,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2016",
+      "count": 112,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2017",
+      "count": 216,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2017",
+      "count": 109,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2018",
+      "count": 230,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2018",
+      "count": 96,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2019",
+      "count": 232,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2019",
+      "count": 119,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2020",
+      "count": 259,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2020",
+      "count": 95,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2021",
+      "count": 330,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2021",
+      "count": 86,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2022",
+      "count": 291,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2022",
+      "count": 96,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2023",
+      "count": 308,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2023",
+      "count": 126,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2024",
+      "count": 420,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2024",
+      "count": 117,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2025",
+      "count": 426,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2025",
+      "count": 122,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_American_films_of_2026",
+      "count": 339,
+      "status": "ok"
+    },
+    {
+      "source": "https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2026",
+      "count": 105,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Wednesday&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Severance&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=The%20Last%20of%20Us&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Stranger%20Things&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=The%20Bear&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Fallout&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Sh%C5%8Dgun&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=The%20White%20Lotus&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Slow%20Horses&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=The%20Pitt&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Pluribus&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Adolescence&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=The%20Studio&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Friends&embed=cast",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "https://api.tvmaze.com/singlesearch/shows?q=Breaking%20Bad&embed=cast",
+      "count": 1,
+      "status": "ok"
+    }
+  ],
+  "languages": [
+    "Bengali",
+    "Danish",
+    "English",
+    "French",
+    "German",
+    "Hebrew",
+    "Hindi",
+    "Italian",
+    "Japanese",
+    "Korean",
+    "Malayalam",
+    "Marathi",
+    "Odia",
+    "Panjabi",
+    "Spanish",
+    "Tamil",
+    "Telugu",
+    "Turkish"
+  ]
+}

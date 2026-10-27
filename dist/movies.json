@@ -1,0 +1,6513 @@
+[
+  {
+    "id": 693134,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genres": [
+      "Adventure",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Timothée Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson"
+    ],
+    "director": "Denis Villeneuve",
+    "runtime": 165,
+    "poster": "/posters/dune.jpg",
+    "summary": "Paul Atreides joins the Fremen on Arrakis, where love, prophecy and a struggle for power collide.",
+    "trailer": "Way9Dexny3w",
+    "score": 8.5,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0NW4P371MNSJ4Q6JS5KVBIDW8Q",
+        "region": "GLOBAL",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 872585,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Florence Pugh"
+    ],
+    "director": "Christopher Nolan",
+    "runtime": 180,
+    "poster": "/posters/oppenheimer.jpg",
+    "summary": "A physicist leads the Manhattan Project and confronts the consequences of creating the atomic bomb.",
+    "trailer": "uYPbbksJxIg",
+    "score": 8.3,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Drama",
+      "History"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 157336,
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Adventure",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "director": "Christopher Nolan",
+    "runtime": 169,
+    "poster": "/posters/interstellar.jpg",
+    "summary": "An astronaut leaves his family to search for a new home for humanity beyond our solar system.",
+    "trailer": "zSWdZVtXT7E",
+    "score": 8.7,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "url": "https://www.primevideo.com/detail/0SK4MKYI5Q3IBR39MM86QNKVLF",
+        "region": "GLOBAL",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 792307,
+    "title": "Poor Things",
+    "year": 2023,
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "cast": [
+      "Emma Stone",
+      "Mark Ruffalo",
+      "Willem Dafoe"
+    ],
+    "director": "Yorgos Lanthimos",
+    "runtime": 142,
+    "poster": "/posters/poor-things.jpg",
+    "summary": "A young woman brought back to life sets out to discover the world and define her own freedom.",
+    "trailer": "RlbR5N6veqw",
+    "score": 7.8,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Fantasy",
+      "Romance"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 27205,
+    "title": "Inception",
+    "year": 2010,
+    "genres": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "cast": [
+      "Leonardo DiCaprio",
+      "Marion Cotillard",
+      "Elliot Page"
+    ],
+    "director": "Christopher Nolan",
+    "runtime": 148,
+    "poster": "/posters/inception.jpg",
+    "summary": "A specialist in stealing secrets from dreams accepts a dangerous assignment: planting an idea.",
+    "trailer": "YoHD9XEInc0",
+    "score": 8.8,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 496243,
+    "title": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      "Song Kang-ho",
+      "Cho Yeo-jeong",
+      "Park So-dam"
+    ],
+    "director": "Bong Joon-ho",
+    "runtime": 132,
+    "poster": "/posters/parasite.jpg",
+    "summary": "A struggling family works its way into a wealthy household, exposing a precarious divide between two worlds.",
+    "trailer": "5xH0HfJHsaY",
+    "score": 8.5,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": true,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Thriller",
+      "Drama"
+    ],
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 278,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bonnie Bedelia"
+    ],
+    "director": "Frank Darabont",
+    "runtime": 142,
+    "poster": "/posters/shawshank.jpg",
+    "summary": "Two imprisoned men build a friendship sustained by small acts of hope over many years.",
+    "trailer": "6hB3S9bIaco",
+    "score": 9.3,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 603,
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Keanu Reeves",
+      "Carrie-Anne Moss",
+      "Laurence Fishburne"
+    ],
+    "director": "Lana & Lilly Wachowski",
+    "runtime": 136,
+    "poster": "/posters/matrix.jpg",
+    "summary": "A computer programmer discovers that his reality is a simulation and joins a rebellion against its makers.",
+    "trailer": "vKQi3bBA1y8",
+    "score": 8.7,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Action"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 155,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Maggie Gyllenhaal"
+    ],
+    "director": "Christopher Nolan",
+    "runtime": 152,
+    "poster": "/posters/dark-knight.jpg",
+    "summary": "Batman faces a criminal mastermind who turns Gotham into a test of order, morality and chaos.",
+    "trailer": "EXeTwQWrcwY",
+    "score": 9.0,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Action",
+      "Crime"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 244786,
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "cast": [
+      "Miles Teller",
+      "J. K. Simmons",
+      "Melissa Benoist"
+    ],
+    "director": "Damien Chazelle",
+    "runtime": 107,
+    "poster": "/posters/whiplash.jpg",
+    "summary": "An ambitious young drummer enters a punishing relationship with his demanding jazz instructor.",
+    "trailer": "7d_jQycdQGo",
+    "score": 8.5,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Drama",
+      "Music"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 313369,
+    "title": "La La Land",
+    "year": 2016,
+    "genres": [
+      "Music",
+      "Romance"
+    ],
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone"
+    ],
+    "director": "Damien Chazelle",
+    "runtime": 128,
+    "poster": "/posters/lalaland.jpg",
+    "summary": "An aspiring actress and a jazz musician fall in love while pursuing their dreams in Los Angeles.",
+    "trailer": "0pdqf4P9MB8",
+    "score": 8.0,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Romance",
+      "Music"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 545611,
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Michelle Yeoh",
+      "Ke Huy Quan",
+      "Stephanie Hsu"
+    ],
+    "director": "Daniel Kwan & Daniel Scheinert",
+    "runtime": 140,
+    "poster": "/posters/everything.jpg",
+    "summary": "A laundromat owner is swept across parallel universes while trying to reconnect with her family.",
+    "trailer": "wxN1T1uxQ2g",
+    "score": 7.8,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Action",
+      "Comedy"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 680,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "director": "Quentin Tarantino",
+    "runtime": 154,
+    "poster": "/posters/pulp.jpg",
+    "summary": "Intersecting stories follow hitmen, a boxer and a crime boss in Los Angeles.",
+    "trailer": "s7EdQ4FqbhY",
+    "score": 8.9,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Crime",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 769,
+    "title": "Goodfellas",
+    "year": 1990,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "cast": [
+      "Ray Liotta",
+      "Lorraine Bracco",
+      "Robert De Niro"
+    ],
+    "director": "Martin Scorsese",
+    "runtime": 145,
+    "poster": "/posters/goodfellas.jpg",
+    "summary": "Henry Hill rises through the mob, finding that the glamour of organized crime carries a heavy cost.",
+    "trailer": "2ilzidi_J8Q",
+    "score": 8.7,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Crime",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 597,
+    "title": "Titanic",
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet"
+    ],
+    "director": "James Cameron",
+    "runtime": 194,
+    "poster": "/posters/titanic.jpg",
+    "summary": "Two passengers from different social worlds fall in love during the ill-fated voyage of the Titanic.",
+    "trailer": "kVrqfYjkTdQ",
+    "score": 7.9,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Romance",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 550,
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "director": "David Fincher",
+    "runtime": 139,
+    "poster": "/posters/fightclub.jpg",
+    "summary": "An insomniac and a charismatic stranger form an underground fight club that grows beyond their control.",
+    "trailer": "SUXWAEX2jlg",
+    "score": 8.8,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Drama",
+      "Thriller"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 129,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ],
+    "director": "Hayao Miyazaki",
+    "runtime": 125,
+    "poster": "/posters/spirited.jpg",
+    "summary": "A girl trapped in a spirit world must find courage and work in a mysterious bathhouse to rescue her parents.",
+    "trailer": "ByXuk9QqQkk",
+    "score": 8.6,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Animation",
+      "Fantasy"
+    ],
+    "languages": [
+      "Japanese"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 329865,
+    "title": "Arrival",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner"
+    ],
+    "director": "Denis Villeneuve",
+    "runtime": 116,
+    "poster": "/posters/arrival.jpg",
+    "summary": "A linguist tries to communicate with alien visitors, discovering a language that changes her understanding of time.",
+    "trailer": "tFMo3UJ4B4g",
+    "score": 7.9,
+    "providers": [],
+    "source": "Curated demonstration",
+    "updatedAt": null,
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceGenres": [
+      "Science Fiction",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 2000053647,
+    "externalId": "53647",
+    "title": "Wednesday",
+    "year": 2022,
+    "releaseDate": "2022-11-23",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Supernatural"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Mystery",
+      "Supernatural"
+    ],
+    "cast": [
+      "Jenna Ortega",
+      "Hunter Doohan",
+      "Georgie Farmer",
+      "Emma Myers",
+      "Joy Sunday",
+      "Victor Dorobantu",
+      "Moosa Mostafa",
+      "Luyanda Unati Lewis-Nyawo",
+      "Jamie McShane",
+      "Gwendoline Christie",
+      "Catherine Zeta Jones",
+      "Luis Guzmán",
+      "Isaac Ordonez",
+      "Christina Ricci",
+      "Naomi J. Ogawa",
+      "Percy Hynes White",
+      "Riki Lindhome",
+      "Steve Buscemi",
+      "Billie Piper",
+      "Owen Painter"
+    ],
+    "director": "",
+    "runtime": 54,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/586/1466410.jpg",
+    "summary": "Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy.",
+    "trailer": "Di310WS8zLk",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81231974",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/53647/wednesday",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000044933,
+    "externalId": "44933",
+    "title": "Severance",
+    "year": 2022,
+    "releaseDate": "2022-02-18",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Mystery"
+    ],
+    "cast": [
+      "Adam Scott",
+      "Tramell Tillman",
+      "Britt Lower",
+      "Zach Cherry",
+      "Jen Tullock",
+      "John Turturro",
+      "Patricia Arquette",
+      "Christopher Walken",
+      "Dichen Lachman",
+      "Michael Chernus",
+      "Sarah Bock"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/548/1371406.jpg",
+    "summary": "Mark Scout leads a team at Lumon Industries, whose employees have undergone a severance procedure, which surgically divides their memories between their work and personal lives. This daring experiment in \"work-life balance\" is called into question as Mark finds himself at the center of an unraveling mystery that will force him to confront the true nature of his work… and of himself.",
+    "trailer": "_UXKlYvLGJY",
+    "score": 7.7,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/44933/severance",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000046562,
+    "externalId": "46562",
+    "title": "The Last of Us",
+    "year": 2023,
+    "releaseDate": "2023-01-15",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Horror"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Horror"
+    ],
+    "cast": [
+      "Bella Ramsey",
+      "Pedro Pascal",
+      "Gabriel Luna",
+      "Isabela Merced",
+      "Young Mazino"
+    ],
+    "director": "",
+    "runtime": 61,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/563/1409008.jpg",
+    "summary": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "HBO",
+        "region": "GLOBAL",
+        "url": "https://www.hbo.com/the-last-of-us",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/46562/the-last-of-us",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000002993,
+    "externalId": "2993",
+    "title": "Stranger Things",
+    "year": 2016,
+    "releaseDate": "2016-07-15",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Horror",
+      "Science Fiction"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Horror",
+      "Science-Fiction"
+    ],
+    "cast": [
+      "Winona Ryder",
+      "Caleb McLaughlin",
+      "Finn Wolfhard",
+      "Gaten Matarazzo",
+      "Natalia Dyer",
+      "David Harbour",
+      "Joe Keery",
+      "Charlie Heaton",
+      "Millie Bobby Brown",
+      "Noah Schnapp",
+      "Cara Buono",
+      "Sadie Sink",
+      "Nell Fisher",
+      "Maya Hawke",
+      "Brett Gelman",
+      "Priah Ferguson",
+      "Dacre Montgomery",
+      "Jamie Campbell Bower",
+      "Matthew Modine",
+      "Paul Reiser"
+    ],
+    "director": "",
+    "runtime": 65,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/595/1489169.jpg",
+    "summary": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+    "trailer": "",
+    "score": 8.4,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80057281",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/2993/stranger-things",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000054198,
+    "externalId": "54198",
+    "title": "The Bear",
+    "year": 2022,
+    "releaseDate": "2022-06-23",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Food"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Food"
+    ],
+    "cast": [
+      "Ebon Moss-Bachrach",
+      "Jeremy Allen White",
+      "Abby Elliott",
+      "Liza Colón-Zayas",
+      "Matty Matheson",
+      "Ayo Edebiri",
+      "Lionel Boyce",
+      "Edwin Lee Gibson"
+    ],
+    "director": "",
+    "runtime": 35,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/629/1574642.jpg",
+    "summary": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "trailer": "",
+    "score": 7.4,
+    "providers": [
+      {
+        "name": "Hulu",
+        "region": "GLOBAL",
+        "url": "https://www.hulu.com/series/the-bear-05eb6a8e-90ed-4947-8c0b-e6536cbddd5f",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/54198/the-bear",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000049041,
+    "externalId": "49041",
+    "title": "Fallout",
+    "year": 2024,
+    "releaseDate": "2024-04-10",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Science Fiction"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Science-Fiction"
+    ],
+    "cast": [
+      "Walton Goggins",
+      "Ella Purnell",
+      "Aaron Moten",
+      "Moises Arias",
+      "Frances Turner",
+      "Kyle MacLachlan",
+      "Xelia Mendes-Jones"
+    ],
+    "director": "",
+    "runtime": 57,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/599/1499142.jpg",
+    "summary": "Based on one of the greatest video game series of all time, Fallout is the story of haves and have nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, a peaceful denizen from a cozy fallout shelter is forced to return to the surface and is shocked to discover the wasteland waiting for her.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B0CN4HV16N",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/49041/fallout",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000037336,
+    "externalId": "37336",
+    "title": "Shōgun",
+    "year": 2024,
+    "releaseDate": "2024-02-27",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "History"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Adventure",
+      "History"
+    ],
+    "cast": [
+      "Cosmo Jarvis",
+      "Anna Sawai",
+      "Tadanobu Asano",
+      "Hiroyuki Sanada",
+      "Takehiro Hira",
+      "Fumi Nikaido",
+      "Tommy Bastow"
+    ],
+    "director": "",
+    "runtime": 59,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/506/1265637.jpg",
+    "summary": "Shōgun is set in Japan in the year 1600 at the dawn of a century-defining civil war. Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+    "trailer": "",
+    "score": 8.5,
+    "providers": [
+      {
+        "name": "Hulu",
+        "region": "GLOBAL",
+        "url": "https://www.hulu.com/series/shogun-5422a5f9-e4f1-475e-9217-65e8249388d0",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/37336/shogun",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000051394,
+    "externalId": "51394",
+    "title": "The White Lotus",
+    "year": 2021,
+    "releaseDate": "2021-07-11",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy"
+    ],
+    "cast": [
+      "Natasha Rothwell",
+      "Jennifer Coolidge",
+      "Jon Gries",
+      "Leslie Bibb",
+      "Carrie Coon",
+      "Walton Goggins",
+      "Sarah Catherine Hook",
+      "Jason Isaacs",
+      "Lisa",
+      "Michelle Monaghan",
+      "Sam Nivola",
+      "Parker Posey",
+      "Patrick Schwarzenegger",
+      "Maethi Thapthimthong",
+      "Aimee Lou Wood",
+      "Aubrey Plaza",
+      "Michael Imperioli",
+      "F. Murray Abraham",
+      "Haley Lu Richardson",
+      "Adam DiMarco"
+    ],
+    "director": "",
+    "runtime": 64,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/557/1393876.jpg",
+    "summary": "A social satire set at an exclusive tropical resort, The White Lotus follows the exploits of various guests and employees over the span of a week.",
+    "trailer": "",
+    "score": 7,
+    "providers": [
+      {
+        "name": "HBO",
+        "region": "GLOBAL",
+        "url": "https://www.hbo.com/the-white-lotus",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/51394/the-white-lotus",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000045039,
+    "externalId": "45039",
+    "title": "Slow Horses",
+    "year": 2022,
+    "releaseDate": "2022-04-01",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Espionage"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller",
+      "Espionage"
+    ],
+    "cast": [
+      "Gary Oldman",
+      "Jack Lowden",
+      "Kristin Scott Thomas",
+      "Jonathan Pryce",
+      "Hugo Weaving",
+      "Sophie Okonedo"
+    ],
+    "director": "",
+    "runtime": 46,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/641/1604425.jpg",
+    "summary": "Slow Horses follows the story of a group of British intelligence agents who serve in a dumping ground department of MI5 called Slough House after the big mistakes they've made that resulted in the end of their mainstream careers. This quick-witted spy drama follows a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/slow-horses/umc.cmc.2szz3fdt71tl1ulnbp8utgq5o",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/45039/slow-horses",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000075632,
+    "externalId": "75632",
+    "title": "The Pitt",
+    "year": 2025,
+    "releaseDate": "2025-01-09",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Medical"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Medical"
+    ],
+    "cast": [
+      "Noah Wyle",
+      "Supriya Ganesh",
+      "Fiona Dourif",
+      "Taylor Dearden",
+      "Isa Briones",
+      "Gerran Howell",
+      "Shabana Azeez",
+      "Katherine LaNasa",
+      "Patrick Ball",
+      "Sepideh Moafi",
+      "Tracy Ifeachor"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/606/1516776.jpg",
+    "summary": "The Pitt is a realistic examination of the challenges facing healthcare workers in today's America as seen through the lens of the frontline heroes working in a modern-day hospital in Pittsburgh, Pennsylvania. Each episode follows an hour of Dr. Robby's 15-hour shift as the chief attendant in Pittsburgh Trauma Medical Hospital's emergency room.",
+    "trailer": "",
+    "score": 8.4,
+    "providers": [
+      {
+        "name": "HBO Max",
+        "region": "GLOBAL",
+        "url": "https://www.hbomax.com/shows/pitt-2024/e6e7bad9-d48d-4434-b334-7c651ffc4bdf",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/75632/the-pitt",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000086175,
+    "externalId": "86175",
+    "title": "Pluribus",
+    "year": 2025,
+    "releaseDate": "2025-11-07",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "cast": [
+      "Rhea Seehorn",
+      "Karolina Wydra",
+      "Carlos Manuel Vesga"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/592/1481086.jpg",
+    "summary": "The most miserable person on Earth must save the world from happiness.",
+    "trailer": "",
+    "score": 7.8,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/pluribus/umc.cmc.37axgovs2yozlyh3c2cmwzlza",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/86175/pluribus",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000078570,
+    "externalId": "78570",
+    "title": "Adolescence",
+    "year": 2025,
+    "releaseDate": "2025-03-13",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime"
+    ],
+    "cast": [
+      "Stephen Graham",
+      "Owen Cooper",
+      "Ashley Walters",
+      "Faye Marsay",
+      "Christine Tremarco",
+      "Amélie Pease",
+      "Erin Doherty",
+      "Mark Stanley",
+      "Hannah Walters",
+      "Jo Hartley",
+      "Fatima Bojang",
+      "Kaine Davis",
+      "Amari Bacchus"
+    ],
+    "director": "",
+    "runtime": 57,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/558/1395109.jpg",
+    "summary": "Adolescence tells the story of how a family's world is turned upside down when 13-year-old Jamie Miller is arrested and charged with the murder of a teenage girl who goes to his school.",
+    "trailer": "",
+    "score": 7.7,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81756069",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/78570/adolescence",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000075605,
+    "externalId": "75605",
+    "title": "The Studio",
+    "year": 2025,
+    "releaseDate": "2025-03-26",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Seth Rogen",
+      "Ike Barinholtz",
+      "Chase Sui Wonders",
+      "Kathryn Hahn",
+      "Catherine O'Hara"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/569/1424520.jpg",
+    "summary": "As movies struggle to stay alive and relevant, Matt and his core team of infighting executives battle their own insecurities as they wrangle narcissistic artists and craven corporate overlords in the ever-elusive pursuit of making great films. With their power suits masking their never-ending sense of panic, every party, set visit, casting decision, marketing meeting, and award show presents them with an opportunity for glittering success or career-ending catastrophe. As someone who eats, sleeps, and breathes movies, it's the job Matt's been pursuing his whole life, and it may very well destroy him.",
+    "trailer": "",
+    "score": 5.9,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/the-studio/umc.cmc.7518algxc4lsoobtsx30dqb52",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/75605/the-studio",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000431,
+    "externalId": "431",
+    "title": "Friends",
+    "year": 1994,
+    "releaseDate": "1994-09-22",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Romance"
+    ],
+    "cast": [
+      "Jennifer Aniston",
+      "Courteney Cox",
+      "Lisa Kudrow",
+      "Matt LeBlanc",
+      "Matthew Perry",
+      "David Schwimmer"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/41/104565.jpg",
+    "summary": "Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life. This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.",
+    "trailer": "",
+    "score": 8.5,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/431/friends",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000169,
+    "externalId": "169",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "releaseDate": "2008-01-20",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn",
+      "RJ Mitte",
+      "Dean Norris",
+      "Betsy Brandt",
+      "Bob Odenkirk",
+      "Jonathan Banks",
+      "Giancarlo Esposito",
+      "Jesse Plemons",
+      "Laura Fraser"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg",
+    "summary": "Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in this world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.",
+    "trailer": "",
+    "score": 9.2,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/169/breaking-bad",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 999000026,
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "genres": [
+      "Adventure",
+      "Science Fiction"
+    ],
+    "cast": [
+      "Ryan Gosling",
+      "Sandra Hüller"
+    ],
+    "director": "Phil Lord & Christopher Miller",
+    "runtime": 156,
+    "poster": "/posters/wiki-999000026.jpg",
+    "summary": "Project Hail Mary is a 2026 science fiction film produced and directed by Phil Lord and Christopher Miller and written by Drew Goddard, based on the 2021 novel by Andy Weir. It stars Ryan Gosling, who also produced the film, as Ryland Grace, with Sandra Hüller, James Ortiz, and Lionel Boyce in supporting roles. The story follows Ryland Grace, a middle school teacher who awakens aboard an interstellar spacecraft with no memory of how he got there.",
+    "trailer": "m08TxIsFTRI",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "IN",
+        "url": "https://www.primevideo.com/detail/0J0SQMKFG51K9S3UTU9SDEMT7D",
+        "type": "subscription",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "Wikipedia",
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "review": null,
+    "mediaType": "movie",
+    "metadataStatus": "enriched",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Project_Hail_Mary_(film)",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 158006693661562,
+    "title": "The Odyssey",
+    "year": 2026,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "cast": [
+      "Christopher Nolan",
+      "Matt Damon",
+      "Tom Holland",
+      "Anne Hathaway",
+      "Robert Pattinson",
+      "Lupita Nyong'o",
+      "Samantha Morton",
+      "John Leguizamo",
+      "Zendaya",
+      "Charlize Theron"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-158006693661562.jpg",
+    "summary": "The Odyssey is a 2026 epic action fantasy film written and directed by Christopher Nolan, who produced it with his wife Emma Thomas. An adaptation of Homer's ancient Greek epic poem the Odyssey, it stars an ensemble cast including Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Samantha Morton, Zendaya, and Charlize Theron. In the film, Odysseus (Damon), the Greek king of Ithaca, undergoes a long and perilous journey home after the Trojan War and encounters mythical beings as he attempts to reunite with his wife, Penelope (Hathaway).",
+    "trailer": "f_bKjZeJBBI",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Action",
+      "Fantasy"
+    ],
+    "trailerSource": "https://www.nbcuniversal.com/article/christopher-nolans-odyssey-unveils-new-trailer-first-film-shot-entirely-imax-cameras",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 113543268999967,
+    "title": "Toy Story 5",
+    "year": 2026,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      "Andrew Stanton",
+      "Kenna Harris",
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack",
+      "Conan O'Brien",
+      "Scarlett Spears",
+      "Greta Lee",
+      "Shelby Rabara",
+      "Mykal-Michelle Harris",
+      "Craig Robinson"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-113543268999967.jpg",
+    "summary": "Toy Story 5 is a 2026 American animated comedy-drama film directed by Andrew Stanton written by Stanton and Kenna Harris, and produced by Pixar Animation Studios for Walt Disney Pictures. It features the voices of Tom Hanks, Tim Allen, and Joan Cusack among those reprising their roles, joined by Conan O'Brien, Scarlett Spears, Greta Lee, Shelby Rabara, Mykal-Michelle Harris, and Craig Robinson. Set two years after Toy Story 4 (2019), it follows Jessie as she, Woody, Buzz Lightyear and the other toys deal with the presence of Lilypad, a tablet and Bonnie's new favorite plaything.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toy_Story_5",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 127379881294260,
+    "title": "The Super Mario Galaxy Movie",
+    "year": 2026,
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "cast": [
+      "Aaron Horvath",
+      "Michael Jelenic",
+      "Chris Pratt",
+      "Anya Taylor-Joy",
+      "Charlie Day",
+      "Jack Black",
+      "Keegan-Michael Key",
+      "Benny Safdie",
+      "Donald Glover",
+      "Glen Powell",
+      "Luis Guzman",
+      "Issa Rae",
+      "Kevin Michael Richardson",
+      "Brie Larson"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-127379881294260.jpg",
+    "summary": "The Super Mario Galaxy Movie is a 2026 American animated adventure comedy film based on Nintendo's Mario video game franchise, created by Shigeru Miyamoto. Directed by Aaron Horvath and Michael Jelenic and written by Matthew Fogel, it is the sequel to The Super Mario Bros. Movie (2023). Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black and Keegan-Michael Key reprise their roles, with Benny Safdie, Donald Glover, Glen Powell and Brie Larson joining the cast. It was produced by Universal Pictures, Illumination and Nintendo. In the film, Mario, Luigi and their friends adventure into outer space, where they face off against Bowser and his son, Bowser Jr. (Safdie) to find and save Rosalina (Larson).",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Super_Mario_Galaxy_Movie",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 99950731976832,
+    "title": "Michael",
+    "year": 2026,
+    "genres": [
+      "Biography"
+    ],
+    "cast": [
+      "Antoine Fuqua",
+      "John Logan",
+      "Jaafar Jackson",
+      "Nia Long",
+      "Laura Harrier",
+      "Jessica Sula",
+      "Mike Myers",
+      "Miles Teller",
+      "Colman Domingo"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-99950731976832.jpg",
+    "summary": "Michael is a 2026 biographical film directed by Antoine Fuqua and written by John Logan. It follows the early life of the American singer Michael Jackson, from his time with the Jackson 5 in the 1960s to the Bad World Tour in the late 1980s. Jackson is portrayed by his nephew Jaafar Jackson and as a child by Juliano Valdi, both in their film debuts. The supporting cast includes Nia Long, KeiLyn Durrel Jones, Laura Harrier, Jessica Sula, Mike Myers, Miles Teller, and Colman Domingo.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Biography"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 94771228405053,
+    "title": "Obsession",
+    "year": 2026,
+    "genres": [
+      "Horror"
+    ],
+    "cast": [
+      "Curry Barker",
+      "Michael Johnston",
+      "Inde Navarrette",
+      "Cooper Tomlinson",
+      "Megan Lawless",
+      "Andy Richter"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-94771228405053.jpg",
+    "summary": "Obsession is a 2025 American supernatural horror film written, directed, and edited by Curry Barker. It follows shop clerk Bear, whose friend Nikki falls dangerously in love with him after he makes a wish. Cooper Tomlinson, Megan Lawless, and Andy Richter appear in supporting roles.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Horror"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 266770856232978,
+    "title": "The Devil Wears Prada 2",
+    "year": 2026,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      "David Frankel",
+      "Aline Brosh McKenna",
+      "Meryl Streep",
+      "Anne Hathaway",
+      "Emily Blunt",
+      "Justin Theroux",
+      "Lucy Liu",
+      "Kenneth Branagh",
+      "Stanley Tucci"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-266770856232978.jpg",
+    "summary": "The Devil Wears Prada 2 is a 2026 American comedy drama film directed by David Frankel and written by Aline Brosh McKenna. A sequel to the 2006 film The Devil Wears Prada, it sees Meryl Streep, Anne Hathaway, Emily Blunt, and Stanley Tucci reprising their roles, joined by Justin Theroux, Lucy Liu, and Kenneth Branagh. Set two decades after the events of the first film, it follows Andy Sachs (Hathaway) as she helps Miranda Priestly (Streep) navigate a new media landscape and corporate threats to the survival of Runway magazine.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_2",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Comedy",
+      "Drama"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 19545652401225,
+    "title": "Backrooms",
+    "year": 2026,
+    "genres": [
+      "Horror"
+    ],
+    "cast": [
+      "Kane Parsons",
+      "Will Soodik",
+      "Chiwetel Ejiofor",
+      "Renate Reinsve",
+      "Mark Duplass",
+      "Finn Bennett",
+      "Lukita Maxwell"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-19545652401225.jpg",
+    "summary": "Backrooms is a 2026 American psychological horror film directed and co-scored by Kane Parsons, and written by Will Soodik. It is based on Parsons's web series which was inspired by the \"Backrooms\" creepypasta. In the film, furniture store owner Clark and his therapist Mary discover a dimension of seemingly endless liminal spaces accessed through the store's basement. Mark Duplass, Finn Bennett, and Lukita Maxwell also star.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Backrooms_(film)",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Horror"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 259639332707473,
+    "title": "Minions & Monsters",
+    "year": 2026,
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "cast": [
+      "Pierre Coffin",
+      "Brian Lynch",
+      "Trey Parker",
+      "Allison Janney",
+      "Christoph Waltz",
+      "Jesse Eisenberg",
+      "Jeff Bridges",
+      "Zoey Deutch",
+      "Bobby Moynihan",
+      "Phil LaMarr"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "/posters/wiki-259639332707473.jpg",
+    "summary": "Minions & Monsters is a 2026 American animated comedy film directed by Pierre Coffin, who co-wrote the screenplay with Brian Lynch. Produced by Universal Pictures and Illumination, it is the third installment in the Minions prequel series and the seventh overall installment in the Despicable Me franchise. The film stars Coffin as the Minions, alongside Trey Parker, Allison Janney, Christoph Waltz, Jesse Eisenberg, Jeff Bridges, Zoey Deutch, Bobby Moynihan and Phil LaMarr. Taking place in 1927, between silent film and sound film, 41 years before the events of Minions (2015) and 49 years before the events of Minions: The Rise of Gru (2022), the film follows a group of Minions as they aim to make a monster movie of their own in Old Hollywood.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "Wikipedia",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Minions_%26_Monsters",
+    "mediaType": "movie",
+    "releaseDate": null,
+    "updatedAt": "2026-10-26",
+    "featured": false,
+    "metadataStatus": "enriched",
+    "regionOfOrigin": "American",
+    "sourceLicense": "CC BY-SA 4.0",
+    "sourceGenres": [
+      "Animation",
+      "Comedy"
+    ],
+    "languages": [
+      "English"
+    ],
+    "languageSource": "Curated original-language metadata"
+  },
+  {
+    "id": 2000000618,
+    "externalId": "618",
+    "title": "Better Call Saul",
+    "year": 2015,
+    "releaseDate": "2015-02-08",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Legal"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Legal"
+    ],
+    "cast": [
+      "Bob Odenkirk",
+      "Jonathan Banks",
+      "Rhea Seehorn",
+      "Patrick Fabian",
+      "Michael Mando",
+      "Giancarlo Esposito",
+      "Michael McKean",
+      "Tony Dalton"
+    ],
+    "director": "",
+    "runtime": 64,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253515.jpg",
+    "summary": "Better Call Saul is the prequel to the award-winning series Breaking Bad, set six years before Saul Goodman became Walter White's lawyer. When we meet him, the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and often against, Jimmy is \"fixer\" Mike Ehrmantraut, a beloved character introduced in Breaking Bad. The series will track Jimmy's transformation into Saul Goodman, the man who puts \"criminal\" in \"criminal lawyer.",
+    "trailer": "",
+    "score": 8.6,
+    "providers": [
+      {
+        "name": "AMC",
+        "region": "GLOBAL",
+        "url": "https://www.amc.com/shows/better-call-saul--1002228",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/618/better-call-saul",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000017861,
+    "externalId": "17861",
+    "title": "Dark",
+    "year": 2017,
+    "releaseDate": "2017-12-01",
+    "languages": [
+      "German"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Supernatural"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Supernatural"
+    ],
+    "cast": [
+      "Louis Hofmann",
+      "Karoline Eichhorn",
+      "Stephan Kampwirth",
+      "Maja Schöne",
+      "Lisa Vicari",
+      "Jördis Triebel",
+      "Andreas Pietschmann",
+      "Paul Lux",
+      "Oliver Masucci",
+      "Moritz Jahn",
+      "Peter Benedict",
+      "Deborah Kaufmann",
+      "Gina Alice Stiebitz",
+      "Daan Lennard Liebrenz",
+      "Julika Jenkins",
+      "Carlotta von Falkenhayn",
+      "Leopold Hornung",
+      "Mark Waschke",
+      "Christian Pätzold",
+      "Dietrich Hollinderbäumer"
+    ],
+    "director": "",
+    "runtime": 56,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/504/1262352.jpg",
+    "summary": "A family saga with a supernatural twist, Dark is set in a German town in present day where the disappearance of two young children exposes the double lives and fractured relationships among four families.",
+    "trailer": "",
+    "score": 8.2,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80100172",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/17861/dark",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000059307,
+    "externalId": "59307",
+    "title": "Money Heist: Korea - Joint Economic Area",
+    "year": 2022,
+    "releaseDate": "2022-06-24",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Park Hae Soo",
+      "Yoo Ji Tae",
+      "Jun Jong Seo",
+      "Lee Won Jong",
+      "Kim Ji Hoon",
+      "Jang Yoon Ju",
+      "Lee Hyun Woo",
+      "Kim Ji Hoon",
+      "Lee Gyu Ho",
+      "Kim Yoon Jin",
+      "Kim Sung-oh"
+    ],
+    "director": "",
+    "runtime": 70,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/430/1076004.jpg",
+    "summary": "Thieves overtake the mint of a unified Korea. With hostages trapped inside, the police must stop them — as well as the shadowy mastermind behind it all.",
+    "trailer": "",
+    "score": 6.6,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80997343",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/59307/money-heist-korea-joint-economic-area",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000043687,
+    "externalId": "43687",
+    "title": "Squid Game",
+    "year": 2021,
+    "releaseDate": "2021-09-17",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Lee Jung Jae",
+      "Wi Ha Joon",
+      "Lee Byung Hun",
+      "Park Hae Soo",
+      "Jung Ho Yun",
+      "Oh Young Soo",
+      "Im Si Wan",
+      "Lee Jin Wook",
+      "Heo Sung Tae",
+      "Jo Yu Ri",
+      "Park Kyu Young",
+      "Anupam Tripathi",
+      "Kim Joo Ryung",
+      "David Lee",
+      "Yoo Sung Joo",
+      "Roh Jae Won",
+      "Kang Ae Shim",
+      "Lee Seo Hwan",
+      "Lee Yoo Mi",
+      "Chae Guk Hui"
+    ],
+    "director": "",
+    "runtime": 59,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/576/1440521.jpg",
+    "summary": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81040344",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/43687/squid-game",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000050701,
+    "externalId": "50701",
+    "title": "Lupin",
+    "year": 2021,
+    "releaseDate": "2021-01-08",
+    "languages": [
+      "French"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Adventure",
+      "Crime"
+    ],
+    "cast": [
+      "Omar Sy"
+    ],
+    "director": "",
+    "runtime": 46,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/646/1617244.jpg",
+    "summary": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+    "trailer": "",
+    "score": 7.4,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80994082",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/50701/lupin",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000050036,
+    "externalId": "50036",
+    "title": "Alice in Borderland",
+    "year": 2020,
+    "releaseDate": "2020-12-10",
+    "languages": [
+      "Japanese"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Science-Fiction",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Kento Yamazaki",
+      "Tao Tsuchiya",
+      "Aya Asahina",
+      "Ayaka Miyoshi",
+      "Nijiro Murakami",
+      "Dori Sakurada",
+      "Sho Aoyagi",
+      "Yutaro Watanabe",
+      "Nobuaki Kaneko",
+      "Riisa Naka",
+      "Hayato Isomura",
+      "Keita Machida",
+      "Yuki Morinaga",
+      "Yuri Tsunematsu",
+      "Kina Yazaki",
+      "Koji Ookura",
+      "Risa Sudo",
+      "Tina Tamashiro",
+      "Kotaro Daigo",
+      "Kento Kaku"
+    ],
+    "director": "",
+    "runtime": 58,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/589/1473249.jpg",
+    "summary": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to survive. Every episode lists different main cast in the opening sequence (beside the two main which are there throughout the entire series).",
+    "trailer": "",
+    "score": 7.8,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80200575",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/50036/alice-in-borderland",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000041375,
+    "externalId": "41375",
+    "title": "Pachinko",
+    "year": 2022,
+    "releaseDate": "2022-03-25",
+    "languages": [],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Lee Min Ho",
+      "Jin Ha",
+      "Soji Arai",
+      "Kim Min Ha",
+      "Yoon Yeo Jung",
+      "Jimmi Simpson",
+      "Anna Sawai",
+      "Kaho Minami",
+      "Jung In Ji",
+      "Jeong Eun Chae",
+      "Han Joon Woo"
+    ],
+    "director": "",
+    "runtime": 53,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/532/1330795.jpg",
+    "summary": "Told in three different languages: Korean, Japanese and English, Pachinko chronicles the hopes and dreams of four generations of a Korean immigrant family.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/pachinko/umc.cmc.17vf6g68dy89kk1l1nnb6min4",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/41375/pachinko",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000065502,
+    "externalId": "65502",
+    "title": "The Glory",
+    "year": 2022,
+    "releaseDate": "2022-12-30",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Song Hye Kyo",
+      "Lee Do Hyun",
+      "Im Ji Yun",
+      "Yum Hye Ran",
+      "Park Sung Hoon",
+      "Jung Sung Il",
+      "Cha Ju Yeong",
+      "Kim Gun Woo",
+      "Kim Hieora"
+    ],
+    "director": "",
+    "runtime": 53,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/433/1084564.jpg",
+    "summary": "Moon Dong Eun had to drop out of school because of school violence. Since then, she has lived with thoughts of revenge. Years later, her main abuser got married and gave birth to a child. The former victim becomes this child's homeroom teacher when he goes to elementary school. So begins her long and difficult path of revenge. It targets not only the main offender, but also all those who watched the violence, but did nothing. Joo Ye Jung is a carefree and smiling guy. Instead of being the fairy prince Dong Eun, he decides to become the means of her revenge.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81519223",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/65502/the-glory",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000214,
+    "externalId": "214",
+    "title": "Kingdom",
+    "year": 2014,
+    "releaseDate": "2014-10-08",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Family",
+      "Sports"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Family",
+      "Sports"
+    ],
+    "cast": [
+      "Jonathan Tucker",
+      "Nick Jonas",
+      "Frank Grillo",
+      "Matt Lauria",
+      "Joanna Going",
+      "Kiele Sanchez",
+      "Natalie Martinez"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/116/291395.jpg",
+    "summary": "Kingdom is a raw family drama set against the world of Mixed Martial Arts (MMA) in Venice, California. Alvey Kulina owns Navy St. MMA with the help of his girlfriend Lisa Prince. He is willing to go through extraordinary means to make sure his fighters are taken care of, but all of this responsibility comes at a steep price. He has complicated relationships with both of his sons, Jay and Nate, who are both struggling with their own identities and places within Alvey's life and gym.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Audience Network",
+        "region": "GLOBAL",
+        "url": "https://www.directvpr.com/english/kingdom",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/214/kingdom",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000018197,
+    "externalId": "18197",
+    "title": "Sacred Games",
+    "year": 2018,
+    "releaseDate": "2018-07-06",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      "Neeraj Kabi",
+      "Saif Ali Khan",
+      "Nawazuddin Siddiqui",
+      "Radhika Apte"
+    ],
+    "director": "",
+    "runtime": 50,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/204/511629.jpg",
+    "summary": "Set in Mumbai, Sacred Games delves into the city's intricate web of organized crime, corruption, politics and espionage that lie beneath India's economic renaissance. It is an epic masterwork of exceptional richness and power that interweaves the lives of the privileged, the famous, the wretched and the bloodthirsty.",
+    "trailer": "",
+    "score": 7.5,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80115328",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/18197/sacred-games",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000041322,
+    "externalId": "41322",
+    "title": "Delhi Crime",
+    "year": 2019,
+    "releaseDate": "2019-03-22",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime"
+    ],
+    "cast": [
+      "Shefali Shah",
+      "Rajesh Tailang",
+      "Rasika Dugal",
+      "Anurag Arora",
+      "Jaya Bhattacharya",
+      "Yashaswini Dayama",
+      "Vinod Sharawat",
+      "Adil Hussain",
+      "Sidharth Bhardwaj",
+      "Gopal Dutt",
+      "Denzil Smith"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/188/470620.jpg",
+    "summary": "Following the police force as they investigate high-profile crimes in Delhi, this series has seasons inspired by both real and fictional events.",
+    "trailer": "",
+    "score": 7.2,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81076756",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/41322/delhi-crime",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000039868,
+    "externalId": "39868",
+    "title": "Mirzapur",
+    "year": 2018,
+    "releaseDate": "2018-11-16",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/619/1549499.jpg",
+    "summary": "The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, is an unworthy heir who will stop at nothing to inherit his father's legacy. An incident at a wedding forces him to cross paths with Ramakant Pandit, an upstanding lawyer, and his sons, Guddu and Bablu. It snowballs into a game of ambition, power and greed in this lawless city.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/gp/video/detail/B07JJ5R12F/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/39868/mirzapur",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000043728,
+    "externalId": "43728",
+    "title": "The Family Man",
+    "year": 2019,
+    "releaseDate": "2019-09-20",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "cast": [
+      "Manoj Bajpayee"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/599/1498893.jpg",
+    "summary": "The Family Man follows the journey of Srikant Tiwari, a man who tries to strike a balance between the responsibilities of his family while working for a highly secretive special cell of the National Intelligence Agency, attempting to spot and prevent large-scale terror attacks on the country and its citizens.",
+    "trailer": "",
+    "score": 6.9,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B07XJ5JLNQ/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/43728/the-family-man",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000047606,
+    "externalId": "47606",
+    "title": "Paatal Lok",
+    "year": 2020,
+    "releaseDate": "2020-05-15",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime"
+    ],
+    "cast": [
+      "Jaideep Ahlawat",
+      "Gul Panag",
+      "Ishwak Singh",
+      "Neeraj Kabi"
+    ],
+    "director": "",
+    "runtime": 44,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/254/635178.jpg",
+    "summary": "A down and out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a prime time journalist. The case turns out to be a devious maze where nothing is what it looks like. The pursuit of it leads him to the dark netherworld - the 'Paatal Lok', and to shocking discoveries in the past of the four suspects.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.primevideo.com/detail/0QKCSGAHJ920EMVU1RK3Y6T6SA",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/47606/paatal-lok",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000047014,
+    "externalId": "47014",
+    "title": "Panchayat",
+    "year": 2020,
+    "releaseDate": "2020-04-03",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 36,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293627.jpg",
+    "summary": "Panchayat captures the journey of engineering graduate Abhishek, who for lack of a better job option joins as secretary of a panchayat office in a remote village of Uttar Pradesh.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/Panchayat-Season-1-4K-UHD/dp/B086BND8W2",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/47014/panchayat",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000066905,
+    "externalId": "66905",
+    "title": "Farzi",
+    "year": 2023,
+    "releaseDate": "2023-02-10",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Shahid Kapoor",
+      "Vijay Sethupathi",
+      "Kay Kay Menon",
+      "Raashi Khanna"
+    ],
+    "director": "",
+    "runtime": 56,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/446/1115765.jpg",
+    "summary": "Sunny, a brilliant small-time artist is catapulted into the high-stakes world of counterfeiting when he creates the perfect fake currency note, even as Michael, a fiery, unorthodox task force officer wants to rid the country of the counterfeiting menace. In this thrilling cat-and-mouse race, losing is not an option!",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/Farzi-Season-1/dp/B0B8TXBGFJ",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/66905/farzi",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000051127,
+    "externalId": "51127",
+    "title": "Scam 1992: The Harshad Mehta Story",
+    "year": 2020,
+    "releaseDate": "2020-10-08",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Pratik Gandhi",
+      "Shreya Dhanwanthary",
+      "Anjali Barot",
+      "Nikhil Dwivedi",
+      "Hemant Kher",
+      "Chirag Vohra",
+      "Jay Upadhyay",
+      "Satish Kaushik",
+      "Brinda Trivedi",
+      "Kumkum Das",
+      "Ramakant Dayma"
+    ],
+    "director": "",
+    "runtime": 52,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/521/1304758.jpg",
+    "summary": "'Scam' is about the major scandals that shook India and are remembered as some of the most notorious crimes of the country. Set in 1980's and 90's Bombay, Scam 1992 follows the life of Harshad Mehta - the infamous \"Bachchan of BSE\". It was a rags-to-riches story till financial journalist Sucheta Dalal exposed Harshad as the man behind India's biggest financial scam. After his arrest, the stock market crashed and countless Indians lost all savings. For the first time, the CBI was compelled to launch an investigation into a financial crime. A corrupt financial system was revealed. Harshad eventually died in custody.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "SonyLIV",
+        "region": "GLOBAL",
+        "url": "https://www.sonyliv.com/shows/scam-1992-the-harshad-mehta--1700000292",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/51127/scam-1992-the-harshad-mehta-story",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000055489,
+    "externalId": "55489",
+    "title": "Aspirants",
+    "year": 2021,
+    "releaseDate": "2021-04-07",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Naveen Kasturia",
+      "Shivankit Parihar",
+      "Sunny Hinduja",
+      "Abhilash Thapliyal",
+      "Namita Dubey",
+      "Tengam Celine",
+      "Jatin Goswami"
+    ],
+    "director": "",
+    "runtime": 46,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/632/1582225.jpg",
+    "summary": "Aspirants is a story of 3 friends - Abhilash, SK, and Guri. The story takes place in the past and the present where the past captures the struggle and the drama behind the making of UPSC CSE aspirants in Old Rajinder Nagar of Delhi, while the present talks about the aftermath. It is the story of perseverance, passion, struggle encircling friendship, love, and life.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/gp/video/detail/0Q6PV0RIC4AFDPW9RAJ2T3C6RW/ref=atv_dl_rdr?tag=justussgaw-20",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/55489/aspirants",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000053238,
+    "externalId": "53238",
+    "title": "Gullak",
+    "year": 2019,
+    "releaseDate": "2019-06-27",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/522/1306547.jpg",
+    "summary": "Santosh Mishra, an employee at the electricity division, leads a content life with his wife and sons. However, their everyday banter strengthens their relationship.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "SonyLIV",
+        "region": "GLOBAL",
+        "url": "https://www.sonyliv.com/shows/gullak-1700000659",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/53238/gullak",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000049403,
+    "externalId": "49403",
+    "title": "Kota Factory",
+    "year": 2019,
+    "releaseDate": "2019-04-16",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 39,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/521/1304802.jpg",
+    "summary": "Kota Factory captures the life of IIT and Medical exam aspirants as they face both Competition and Life.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81249783",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/49403/kota-factory",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000069717,
+    "externalId": "69717",
+    "title": "Kohrra",
+    "year": 2023,
+    "releaseDate": "2023-07-15",
+    "languages": [
+      "Panjabi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/468/1170715.jpg",
+    "summary": "When an NRI bridegroom is found dead days before his wedding, two cops must unravel the troubling case as turbulence unfolds in their own lives.",
+    "trailer": "",
+    "score": 5.8,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81443393",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/69717/kohrra",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000062771,
+    "externalId": "62771",
+    "title": "Suzhal - The Vortex",
+    "year": 2022,
+    "releaseDate": "2022-06-17",
+    "languages": [
+      "Tamil"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 46,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/414/1035563.jpg",
+    "summary": "Created by Pushkar and Gayatri, Suzhal - The Vortex is a crime thriller that goes beyond the routine investigation and threatens to shake up the cultural societal fabric, when a crime hits a small town in India. Set against the backdrop of an unique micro-festival, ancient myths collide with the troubling present as we are drawn into the eye of the storm.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/Suzhal-The-Vortex-Season-1/dp/B0B1C2CLTL",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/62771/suzhal-the-vortex",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000068706,
+    "externalId": "68706",
+    "title": "Dahaad",
+    "year": 2023,
+    "releaseDate": "2023-05-12",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Crime",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/460/1152426.jpg",
+    "summary": "When a series of women are found dead in public bathrooms under mysterious circumstances, Sub-inspector Anjali Bhaati is tasked with leading the investigation. As the case unravels she begins to suspect that the seemingly clear-cut suicides may be the work of a serial killer on the loose, triggering a riveting game of cat and mouse between a seasoned criminal and an underdog cop.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/68706/dahaad",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000046942,
+    "externalId": "46942",
+    "title": "Asur",
+    "year": 2020,
+    "releaseDate": "2020-03-02",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Arshad Warsi",
+      "Barun Sobti",
+      "Anupriya Goenka",
+      "Riddhi Dogra",
+      "Pawan Chopra",
+      "Amey Wagh",
+      "Vishesh Bansal",
+      "Sharib Hashmi",
+      "Gaurav Arora",
+      "Abhishek Chauhan",
+      "Meiyang Chang",
+      "Adithi Kalkunte"
+    ],
+    "director": "",
+    "runtime": 47,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/248/621330.jpg",
+    "summary": "A unique crime thriller that pits two opposing worlds against each other. The less explored, intricate world of forensic science and the deep mysticism of ancient Indian Mythology.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "JioCinema",
+        "region": "GLOBAL",
+        "url": "https://www.jiocinema.com/tv-shows/asur/3500240",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/46942/asur",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000060326,
+    "externalId": "60326",
+    "title": "Rocket Boys",
+    "year": 2022,
+    "releaseDate": "2022-02-04",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "History"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 44,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/521/1304759.jpg",
+    "summary": "Spanning three crucial decades (1940-60s) in the history of India, the story chronicles the life of three great men responsible for launching India's space and nuclear programs respectively: Dr. Hobi J. Bhabha, the architect of India's Nuclear Programme, Dr. Vikram Sarabhai, universally acknowledged as the Father of the Indian Space Programme and Dr. A.P.J. Abdul Kalam, the pioneer of modern Indian aerospace and nuclear technology. The season traces the journey of Bhabha and Sarabhai coming to terms with the challenges facing a young, independent nation and their friendship, sacrifice and determination.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "SonyLIV",
+        "region": "GLOBAL",
+        "url": "https://www.sonyliv.com/shows/rocket-boys-1700000852",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/60326/rocket-boys",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000003552,
+    "externalId": "3552",
+    "title": "Criminal Justice",
+    "year": 2008,
+    "releaseDate": "2008-06-30",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Zoe Telford",
+      "Ben Whishaw",
+      "Bill Paterson",
+      "Con O'Neill",
+      "Denis Lawson",
+      "Maxine Peake",
+      "Sophie Okonedo"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/18/46688.jpg",
+    "summary": "Thriller by Peter Moffat about the challenges and politics of the criminal justice system seen through the eyes of the accused. Season one follows Ben Coulter (Ben Whishaw), a young man who is accused of murder after a drunken night out, though is unable to remember committing the crime. Season two follows Juliet Miller (Maxine Peake) as she struggles to come to terms with her life after attempting to kill her husband, a respected and powerful barrister at the height of his profession.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/3552/criminal-justice",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000041207,
+    "externalId": "41207",
+    "title": "Made in Heaven",
+    "year": 2019,
+    "releaseDate": "2019-03-08",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Romance"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 58,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/472/1180990.jpg",
+    "summary": "Made in Heaven chronicles the lives of Tara and Karan, two wedding planners in Delhi. India. Tradition jostles with modern aspirations against the backdrop of big fat Indian weddings revealing many secrets and many lies. The supposedly liberal fabric of the upper crust unravels as the duo navigate through arranged marriages, dowry transactions and virginity tests.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.primevideo.com/detail/0OO47CBJ1NU885PDG2V3IA05LU/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/41207/made-in-heaven",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000071249,
+    "externalId": "71249",
+    "title": "The Railway Men: The Untold Story of Bhopal 1984",
+    "year": 2023,
+    "releaseDate": "2023-11-18",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Thriller",
+      "History"
+    ],
+    "sourceGenres": [
+      "Thriller",
+      "History"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 59,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/487/1218387.jpg",
+    "summary": "After a deadly gas leaks from a factory in Bhopal, brave railway workers risk their lives to save others in the face of an unspeakable disaster.",
+    "trailer": "",
+    "score": 7.3,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81711003",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/71249/the-railway-men-the-untold-story-of-bhopal-1984",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000052027,
+    "externalId": "52027",
+    "title": "Mismatched",
+    "year": 2020,
+    "releaseDate": "2020-11-20",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 36,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/284/711038.jpg",
+    "summary": "After a disastrous set-up by their families, two teens strike up a tentative friendship at their summer program — but deeper feelings aren't far behind.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80220079",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/52027/mismatched",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000056786,
+    "externalId": "56786",
+    "title": "Heeramandi: The Diamond Bazaar",
+    "year": 2024,
+    "releaseDate": "2024-05-01",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Romance",
+      "History"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Romance",
+      "History"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/513/1283520.jpg",
+    "summary": "The scheming Mallikajaan rules over an elite house of courtesans — but a new rival threatens her reign as rebellion brews in British-ruled India.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81122198",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/56786/heeramandi-the-diamond-bazaar",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000075080,
+    "externalId": "75080",
+    "title": "Dabba Cartel",
+    "year": 2025,
+    "releaseDate": "2025-02-28",
+    "languages": [
+      "Hindi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/557/1394504.jpg",
+    "summary": "A series of unusual circumstances leads five ordinary women from Thane down a rabbit hole of adventures that sees them begin distributing drugs through a 'dabba' delivery business. As their secret cartel expands, they must navigate treacherous alliances, the law, and their own inner conflicts – risking everything they hold dear.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81476853",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/75080/dabba-cartel",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000003594,
+    "externalId": "3594",
+    "title": "The Crown",
+    "year": 2016,
+    "releaseDate": "2016-11-04",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "History"
+    ],
+    "cast": [
+      "Claire Foy",
+      "Olivia Colman",
+      "Imelda Staunton",
+      "Matt Smith",
+      "Tobias Menzies",
+      "Jonathan Pryce",
+      "Lesley Manville",
+      "Helena Bonham Carter",
+      "Vanessa Kirby",
+      "Marcia Warren",
+      "Marion Bailey",
+      "Victoria Hamilton",
+      "Josh O'Connor",
+      "Dominic West",
+      "Julian Baring",
+      "Claudia Harrison",
+      "Erin Doherty",
+      "Elizabeth Debicki",
+      "Emma Corrin",
+      "Olivia Williams"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/632/1580063.jpg",
+    "summary": "The Crown tells the inside story of two of the most famous addresses in the world -- Buckingham Palace and 10 Downing Street - and the intrigues, love lives and machinations behind the great events that shaped the second half of the 20th century. Two houses, two courts, one Crown.",
+    "trailer": "",
+    "score": 8.4,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80025678",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/3594/the-crown",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000044778,
+    "externalId": "44778",
+    "title": "House of the Dragon",
+    "year": 2022,
+    "releaseDate": "2022-08-21",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Fantasy"
+    ],
+    "cast": [
+      "Matt Smith",
+      "Emma D'Arcy",
+      "Steve Toussaint",
+      "Sonoya Mizuno",
+      "Fabien Frankel",
+      "Kurt Egyiawan",
+      "Olivia Cooke",
+      "Matthew Needham",
+      "Jefferson Hall",
+      "Tom Glynn-Carney",
+      "Ewan Mitchell",
+      "Bethany Antonia",
+      "Phia Saban",
+      "Abubakar Salim",
+      "Rhys Ifans",
+      "Harry Collett",
+      "Phoebe Campbell",
+      "Kieran Bew",
+      "Tom Bennett",
+      "Freddie Fox"
+    ],
+    "director": "",
+    "runtime": 66,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568449.jpg",
+    "summary": "Set 200 years before the events of Game of Thrones, House of the Dragon tells the history of House Targaryen as they fight through a civil war.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "HBO",
+        "region": "GLOBAL",
+        "url": "https://www.hbomax.com/show/c68e69d7-9317-428a-a615-cdf8fe5a2e06/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/44778/house-of-the-dragon",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000082,
+    "externalId": "82",
+    "title": "Game of Thrones",
+    "year": 2011,
+    "releaseDate": "2011-04-17",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cast": [
+      "Peter Dinklage",
+      "Kit Harington",
+      "Lena Headey",
+      "Emilia Clarke",
+      "Sophie Turner",
+      "Maisie Williams",
+      "Nikolaj Coster-Waldau",
+      "Iain Glen",
+      "Alfie Allen",
+      "John Bradley",
+      "Conleth Hill",
+      "Aidan Gillen",
+      "Gwendoline Christie",
+      "Liam Cunningham",
+      "Isaac Hempstead-Wright",
+      "Nathalie Emmanuel",
+      "Rory McCann",
+      "Jerome Flynn",
+      "Jacob Anderson",
+      "Kristofer Hivju"
+    ],
+    "director": "",
+    "runtime": 61,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245274.jpg",
+    "summary": "Based on the bestselling book series A Song of Ice and Fire by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the Game of Thrones , you either win or you die.",
+    "trailer": "",
+    "score": 8.9,
+    "providers": [
+      {
+        "name": "HBO Max",
+        "url": "https://www.hbomax.com/show/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac",
+        "region": "GLOBAL",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/82/game-of-thrones",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000015299,
+    "externalId": "15299",
+    "title": "The Boys",
+    "year": 2019,
+    "releaseDate": "2019-07-26",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Adult"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Fantasy",
+      "Adult"
+    ],
+    "cast": [
+      "Karl Urban",
+      "Erin Moriarty",
+      "Antony Starr",
+      "Chace Crawford",
+      "Jack Quaid",
+      "Tomer Capone",
+      "Laz Alonso",
+      "Karen Fukuhara",
+      "Colby Minifie",
+      "Jessie T. Usher",
+      "Dominique McElligott",
+      "Nathan Mitchell",
+      "Claudia Doumit",
+      "Cameron Crovetti",
+      "Susan Heyward",
+      "Jensen Ackles",
+      "Valorie Curry",
+      "Nathan Mitchell",
+      "Aya Cash",
+      "Elisabeth Shue"
+    ],
+    "director": "",
+    "runtime": 63,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/619/1547768.jpg",
+    "summary": "In a world where superheroes embrace the darker side of their massive celebrity and fame, The Boys centres on a group of vigilantes known informally as \"The Boys,\" who set out to take down corrupt superheroes with no more than blue collar grit and a willingness to fight dirty.",
+    "trailer": "",
+    "score": 8.3,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B07QQQ52B3",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/15299/the-boys",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000037196,
+    "externalId": "37196",
+    "title": "Invincible",
+    "year": 2021,
+    "releaseDate": "2021-03-26",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Science Fiction"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Science-Fiction"
+    ],
+    "cast": [
+      "Steven Yeun",
+      "Sandra Oh",
+      "J.K. Simmons"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/618/1545777.jpg",
+    "summary": "Based on the eponymous comic book, Invincible revolves around Mark Grayson, a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his 17th birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B08WJP55PR",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/37196/invincible",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000043031,
+    "externalId": "43031",
+    "title": "Reacher",
+    "year": 2022,
+    "releaseDate": "2022-02-04",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "cast": [
+      "Alan Ritchson",
+      "Maria Sten",
+      "Malcolm Goodwin",
+      "Willa Fitzgerald",
+      "Robert Patrick",
+      "Serinda Swan",
+      "Ferdinand Kingsley",
+      "Shaun Sipos",
+      "Sonya Cassidy",
+      "Johnny Berchtold",
+      "Roberto Montesinos",
+      "Olivier Richters",
+      "Brian Tee",
+      "Anthony Michael Hall",
+      "Christopher Rodriguez-Marquette",
+      "Sydelle Noel",
+      "Chris Webster",
+      "Bruce McGill",
+      "Agnez Mo",
+      "Anggun"
+    ],
+    "director": "",
+    "runtime": 48,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/636/1591350.jpg",
+    "summary": "Reacher follows Jack Reacher, a veteran military police investigator who has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served. When Reacher arrives in the small town of Margrave, Georgia, he finds a community grappling with its first homicide in 20 years. The cops immediately arrest him and eyewitnesses claim to place Reacher at the scene of the crime. While he works to prove his innocence, a deep-seated conspiracy begins to emerge, one that will require Reacher's keen mind and hard-hitting fists to deal with. One thing above all is for sure: They picked the wrong guy to take the fall.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B09MKZTJF4",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/43031/reacher",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000033352,
+    "externalId": "33352",
+    "title": "The Lord of the Rings: The Rings of Power",
+    "year": 2022,
+    "releaseDate": "2022-09-02",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cast": [
+      "Morfydd Clark",
+      "Charlie Vickers",
+      "Charles Edwards",
+      "Sam Hazeldine",
+      "Joseph Mawle",
+      "Robert Aramayo",
+      "Ismael Cruz Córdova",
+      "Markella Kavenagh",
+      "Daniel Weyman",
+      "Megan Richards",
+      "Cynthia Addai Robinson",
+      "Owain Arthur",
+      "Lloyd Owen",
+      "Benjamin Walker",
+      "Peter Mullan",
+      "Sophia Nomvete",
+      "Tyroe Muhafidin",
+      "Maxim Baldry",
+      "Trystan Gravelle",
+      "Ema Horvath"
+    ],
+    "director": "",
+    "runtime": 68,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/646/1617247.jpg",
+    "summary": "Set thousands of years before the events of The Lord of the Rings, this epic drama follows an ensemble cast of characters, both familiar and new, as they confront the long-feared re-emergence of evil to Middle-earth.",
+    "trailer": "",
+    "score": 7.1,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B09QH98YG1",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/33352/the-lord-of-the-rings-the-rings-of-power",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000035083,
+    "externalId": "35083",
+    "title": "The Wheel of Time",
+    "year": 2021,
+    "releaseDate": "2021-11-19",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cast": [
+      "Rosamund Pike",
+      "Madeleine Madden",
+      "Marcus Rutherford",
+      "Zoë Robins",
+      "Josha Stradowski",
+      "Dónal Finn",
+      "Barney Harris",
+      "Daniel Henney",
+      "Hammed Animashaun",
+      "Kate Fleetwood",
+      "Priyanka Bose",
+      "Taylor Napier",
+      "Ceara Coveney",
+      "Natasha O'Keeffe",
+      "Jennifer Cheon",
+      "Kae Alexander",
+      "Fares Fares",
+      "Meera Syal",
+      "Ayoola Smart",
+      "Emmanuel Imani"
+    ],
+    "director": "",
+    "runtime": 64,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/564/1411765.jpg",
+    "summary": "The Wheel of Time is set in a sprawling, epic world where magic exists, but only women can use it safely. Meaning that in this series — women hold the keys to power. The story follows Moiraine, a member of the shadowy and influential all-female organization called the ‘Aes Sedai' as she embarks on a dangerous, world-spanning journey with five young men and women. Moiraine's interested in these five because she believes one of them might be the reincarnation of an incredibly powerful individual, whom prophecies say will either save humanity or destroy it. The series draws on numerous elements of European and Asian culture and philosophy, most notably the cyclical nature of time found in Buddhism and Hinduism.",
+    "trailer": "",
+    "score": 7.2,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/dp/B09F5KBXB6",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/35083/the-wheel-of-time",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000035951,
+    "externalId": "35951",
+    "title": "Foundation",
+    "year": 2021,
+    "releaseDate": "2021-09-24",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Mystery"
+    ],
+    "cast": [
+      "Lee Pace",
+      "Lou Llobell",
+      "Laura Birn",
+      "Terrence Mann",
+      "Jared Harris",
+      "Cassian Bilton",
+      "Leah Harvey",
+      "Pilou Asbæk",
+      "Brandon Bell",
+      "Synnøve Karlsen",
+      "Cody Fern",
+      "Cherry Jones",
+      "Yootha Wong-Loi-Sing",
+      "Tómas Lemarquis",
+      "Alexander Siddig",
+      "Troy Kotsur",
+      "Chipo Chung"
+    ],
+    "director": "",
+    "runtime": 53,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/573/1433544.jpg",
+    "summary": "When revolutionary Dr. Hari Seldon predicts the impending fall of the Empire, he and a band of loyal followers venture to the far reaches of the galaxy to establish The Foundation in an attempt to rebuild and preserve the future of civilization. Enraged by Hari's claims, the ruling Cleons – a long line of emperor clones – fear their grasp on the galaxy may be weakening as they're forced to reckon with the potential reality of losing their legacy forever.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3?l=en",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/35951/foundation",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000038052,
+    "externalId": "38052",
+    "title": "Silo",
+    "year": 2023,
+    "releaseDate": "2023-05-05",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Mystery"
+    ],
+    "cast": [
+      "Rebecca Ferguson",
+      "Tim Robbins",
+      "Common",
+      "Harriet Walter",
+      "Chinaza Uche",
+      "Remmie Milner",
+      "Shane McRae",
+      "Avi Nash",
+      "Billy Postlethwaite",
+      "Alexandria Riley",
+      "Rick Gomez",
+      "Clare Perkins",
+      "Steve Zahn",
+      "Ashley Zukerman",
+      "Jessica Henwick",
+      "Reed Birney",
+      "Laura Innes",
+      "Jessica Brown Findlay",
+      "Matt Craven",
+      "David Oyelowo"
+    ],
+    "director": "",
+    "runtime": 51,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/631/1577677.jpg",
+    "summary": "Silo depicts a ruined and toxic future, when thousands of people live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+    "trailer": "",
+    "score": 8,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/silo/umc.cmc.3yksgc857px0k0rqe5zd4jice",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/38052/silo",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000044458,
+    "externalId": "44458",
+    "title": "Ted Lasso",
+    "year": 2020,
+    "releaseDate": "2020-08-14",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Sports"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Sports"
+    ],
+    "cast": [
+      "Jason Sudeikis",
+      "Brendan Hunt",
+      "Hannah Waddingham",
+      "Jeremy Swift",
+      "Brett Goldstein",
+      "Juno Temple",
+      "Billy Harris",
+      "Kola Bokinni",
+      "Nick Mohammed",
+      "Phil Dunster",
+      "Toheeb Jimoh",
+      "Cristo Fernández",
+      "James Lance",
+      "Anthony Head",
+      "Sarah Niles",
+      "Tanya Reynolds",
+      "Jude Mack",
+      "Aisling Sharkey",
+      "Rex Hayes",
+      "Abbie Hern"
+    ],
+    "director": "",
+    "runtime": 43,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/634/1585930.jpg",
+    "summary": "Ted Lasso centers on an idealistic — and clueless — all-American football coach hired to manage an English football club — despite having no soccer coaching experience at all.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/44458/ted-lasso",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000058323,
+    "externalId": "58323",
+    "title": "Shrinking",
+    "year": 2023,
+    "releaseDate": "2023-01-27",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Jason Segel",
+      "Harrison Ford",
+      "Christa Miller",
+      "Jessica Williams",
+      "Michael Urie",
+      "Luke Tennie",
+      "Lukita Maxwell",
+      "Ted McGinley"
+    ],
+    "director": "",
+    "runtime": 34,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/610/1527402.jpg",
+    "summary": "Shrinking follows a grieving therapist who starts to break the rules and tell his clients exactly what he thinks. Ignoring his training and ethics, he finds himself making huge, tumultuous changes to people's lives... including his own.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/shrinking/umc.cmc.apzybj6eqf6pzccd97kev7bs",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/58323/shrinking",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000041524,
+    "externalId": "41524",
+    "title": "The Morning Show",
+    "year": 2019,
+    "releaseDate": "2019-11-01",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Jennifer Aniston",
+      "Mark Duplass",
+      "Billy Crudup",
+      "Reese Witherspoon",
+      "Karen Pittman",
+      "Néstor Carbonell",
+      "Greta Lee",
+      "Desean Terry",
+      "Nicole Beharie",
+      "Steve Carell",
+      "Julianna Margulies",
+      "Bel Powley",
+      "Jon Hamm",
+      "Gugu Mbatha-Raw",
+      "Ruairi O'Connor",
+      "Marion Cotillard",
+      "Jack Davenport"
+    ],
+    "director": "",
+    "runtime": 54,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/594/1485135.jpg",
+    "summary": "Nominated for three Golden Globes®, this unapologetically candid drama looks at the modern workplace through the lens of the people who help America wake up. Pull back the curtain on early morning TV.",
+    "trailer": "",
+    "score": 7,
+    "providers": [
+      {
+        "name": "Apple TV",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/the-morning-show/umc.cmc.25tn3v8ku4b39tr6ccgb8nl6m",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/41524/the-morning-show",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000305,
+    "externalId": "305",
+    "title": "Black Mirror",
+    "year": 2011,
+    "releaseDate": "2011-12-04",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 62,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/564/1411764.jpg",
+    "summary": "Over the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone--a black mirror of our 21st Century existence. Black Mirror is a contemporary British re-working of The Twilight Zone with stories that tap into the collective unease about our modern world.",
+    "trailer": "",
+    "score": 8.4,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/70264888",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/305/black-mirror",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000055138,
+    "externalId": "55138",
+    "title": "Arcane: League of Legends",
+    "year": 2021,
+    "releaseDate": "2021-11-06",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cast": [
+      "Kevin Alejandro",
+      "Hailee Steinfeld",
+      "Harry Lloyd",
+      "Toks Olagundoye",
+      "Katie Leung",
+      "Ella Purnell",
+      "Jason Spisak",
+      "Brett Tucker",
+      "JB Blanc",
+      "Amirah Vann",
+      "Mia Sinclair Jenness",
+      "Mick Wingert",
+      "Ellen Thomas",
+      "Josh Keaton",
+      "Remy Hii",
+      "Erica Lindbeck",
+      "Reed LoRenzo Shannon",
+      "Abigail Marlowe",
+      "Yuri Lowenthal",
+      "Roger Craig Smith"
+    ],
+    "director": "",
+    "runtime": 41,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/536/1340287.jpg",
+    "summary": "Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions — and the power that will tear them apart.",
+    "trailer": "",
+    "score": 8.5,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81435684",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/55138/arcane-league-of-legends",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000046065,
+    "externalId": "46065",
+    "title": "One Piece",
+    "year": 2023,
+    "releaseDate": "2023-08-31",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cast": [
+      "Iñaki Godoy",
+      "Emily Rudd",
+      "Mackenyu",
+      "Jacob Romero Gibson",
+      "Taz Skylar",
+      "Vincent Regan",
+      "Morgan Davies",
+      "Jeff Ward",
+      "Charithra Chandran",
+      "Mikaela Hoover",
+      "Ian McShane",
+      "Cole Escola"
+    ],
+    "director": "",
+    "runtime": 58,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/617/1543011.jpg",
+    "summary": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure in this live-action adaptation of the popular manga.",
+    "trailer": "",
+    "score": 7.7,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80217863",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/46065/one-piece",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000919,
+    "externalId": "919",
+    "title": "Attack on Titan",
+    "year": 2013,
+    "releaseDate": "2013-04-07",
+    "languages": [
+      "Japanese"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Anime",
+      "Fantasy",
+      "Horror"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Anime",
+      "Fantasy",
+      "Horror"
+    ],
+    "cast": [
+      "Yui Ishikawa",
+      "Yûki Kaji",
+      "Marina Inoue"
+    ],
+    "director": "",
+    "runtime": 26,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/632/1582290.jpg",
+    "summary": "Known in Japan as Shingeki no Kyojin, many years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the heroic members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
+    "trailer": "",
+    "score": 8.9,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/919/attack-on-titan",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000040,
+    "externalId": "40",
+    "title": "Death Note",
+    "year": 2006,
+    "releaseDate": "2006-10-03",
+    "languages": [
+      "Japanese"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Anime",
+      "Fantasy",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Anime",
+      "Fantasy",
+      "Thriller"
+    ],
+    "cast": [
+      "Mamoru Miyano",
+      "Shidō Nakamura",
+      "Kappei Yamaguchi",
+      "Aya Hirano",
+      "Noriko Hidaka"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/499/1249019.jpg",
+    "summary": "Death Note is an anime series based around a manga of the same name whereby a human finds a death god's notebook. Any person's name written in this notebook will die. The main character who finds this noteboook is Light Yagami who faces off against an unfaced character named L who tries to challenge him.",
+    "trailer": "",
+    "score": 8.8,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/40/death-note",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000041428,
+    "externalId": "41428",
+    "title": "The Queen's Gambit",
+    "year": 2020,
+    "releaseDate": "2020-10-23",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Anya Taylor-Joy",
+      "Chloe Pirrie",
+      "Bill Camp",
+      "Marielle Heller",
+      "Marcin Dorociński",
+      "Moses Ingram",
+      "Thomas Brodie Sangster",
+      "Harry Melling",
+      "Isla Johnston",
+      "Jacob Fortune-Lloyd",
+      "Christiane Seidel",
+      "Akemnji Ndifornyen",
+      "Patrick Kennedy",
+      "Rebecca Root"
+    ],
+    "director": "",
+    "runtime": 56,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/510/1275203.jpg",
+    "summary": "Chronicling the life of an orphan chess prodigy, the story - set during the Cold War era - follows Beth Harmon from the age of eight to twenty-two, as she struggles with addiction in a quest to become the greatest chess player in the world.",
+    "trailer": "",
+    "score": 8.5,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80234304",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/41428/the-queens-gambit",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000044042,
+    "externalId": "44042",
+    "title": "Ripley",
+    "year": 2024,
+    "releaseDate": "2024-04-04",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Andrew Scott",
+      "Johnny Flynn",
+      "Dakota Fanning",
+      "Vittorio Viviani",
+      "Margherita Buy",
+      "Eliot Sumner",
+      "Maurizio Lombardi",
+      "Bokeem Woodbine",
+      "Louis Hofmann",
+      "John Malkovich"
+    ],
+    "director": "",
+    "runtime": 56,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/500/1252264.jpg",
+    "summary": "Ripley follows Tom Ripley, a grifter scraping by in early 1960s New York, who is hired by a wealthy man to try to convince his vagabond son, Dickie Greenleaf, who is living a comfortable, trust-funded ex-pat life in Italy, to return home. Tom's acceptance of the job is the first step into a complex life of deceit, fraud and murder.",
+    "trailer": "",
+    "score": 7,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81678765",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/44042/ripley",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000054285,
+    "externalId": "54285",
+    "title": "BEEF",
+    "year": 2023,
+    "releaseDate": "2023-04-06",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy"
+    ],
+    "cast": [
+      "Steven Yeun",
+      "Ali Wong",
+      "Joseph Lee",
+      "Young Mazino",
+      "Oscar Isaac",
+      "Carey Mulligan",
+      "Cailee Spaeny",
+      "Charles Melton",
+      "David Choe",
+      "Patti Yasutake",
+      "Seoyeon Jang",
+      "Yoon Yeo Jung",
+      "William Fichtner",
+      "Mikaela Hoover",
+      "Matthew Kim",
+      "Song Kang Ho"
+    ],
+    "director": "",
+    "runtime": 39,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/621/1554643.jpg",
+    "summary": "They're frustrated, furious — and finally feeling something. Two strangers act on their darkest impulses in the aftermath of a road-rage incident.",
+    "trailer": "",
+    "score": 7,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/54285/beef",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000052426,
+    "externalId": "52426",
+    "title": "Baby Reindeer",
+    "year": 2024,
+    "releaseDate": "2024-04-11",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy"
+    ],
+    "cast": [
+      "Richard Gadd",
+      "Jessica Gunning",
+      "Nava Mau",
+      "Tom Goodman-Hill"
+    ],
+    "director": "",
+    "runtime": 34,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/578/1447075.jpg",
+    "summary": "Based on a compelling true story, the hit 2019 Edinburgh Fringe one-man stage-play Baby Reindeer follows the writer and performer Richard Gadd's warped relationship with his female stalker and the impact it has on him as he is ultimately forced to face a deep, dark buried trauma.",
+    "trailer": "",
+    "score": 6.8,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81219887",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/52426/baby-reindeer",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000060213,
+    "externalId": "60213",
+    "title": "The Diplomat",
+    "year": 2023,
+    "releaseDate": "2023-04-20",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      "Keri Russell",
+      "Rufus Sewell",
+      "Ali Ahn",
+      "Ato Essandoh",
+      "Nana Mensah",
+      "Rory Kinnear",
+      "David Gyasi",
+      "Allison Janney",
+      "Bradley Whitford"
+    ],
+    "director": "",
+    "runtime": 50,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/646/1615567.jpg",
+    "summary": "In the midst of an international crisis, a career diplomat lands in a high-profile job she's unsuited for, with tectonic implications for her marriage and her political future.",
+    "trailer": "",
+    "score": 7.9,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81288983",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/60213/the-diplomat",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000056512,
+    "externalId": "56512",
+    "title": "The Night Agent",
+    "year": 2023,
+    "releaseDate": "2023-03-23",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Gabriel Basso",
+      "Luciane Buchanan",
+      "Fola Evans-Akingbola",
+      "Louis Herthum",
+      "Amanda Warren",
+      "Albert Jones",
+      "Hong Chau",
+      "Genesis Rodriguez",
+      "Eve Harlow",
+      "Arienne Mandi",
+      "Berto Colón",
+      "Sarah Desjardins",
+      "Keon Alexander",
+      "Ward Horton",
+      "David Lyons",
+      "Stephen Moyer",
+      "D.B. Woodside",
+      "Michael Malarkey",
+      "Jennifer Morrison",
+      "Callum Vinson"
+    ],
+    "director": "",
+    "runtime": 51,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/614/1536331.jpg",
+    "summary": "The Night Agent is a sophisticated, character-based, action-thriller centering on a low-level FBI Agent who works in the basement of the White House, manning a phone that never rings — until the night that it does, propelling him into a fast-moving and dangerous conspiracy that ultimately leads all the way to the Oval Office.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81450827",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/56512/the-night-agent",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000060920,
+    "externalId": "60920",
+    "title": "The Penguin",
+    "year": 2024,
+    "releaseDate": "2024-09-19",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime"
+    ],
+    "cast": [
+      "Colin Farrell",
+      "Cristin Milioti",
+      "Rhenzy Feliz",
+      "Deirdre O'Connell",
+      "Carmen Ejogo",
+      "Theo Rossi",
+      "Michael Kelly",
+      "Clancy Brown",
+      "David H. Holmes",
+      "Daniel J. Watts",
+      "Shohreh Aghdashloo",
+      "James Madio",
+      "Michael Zegen",
+      "Joshua Bitton",
+      "Craig Walker",
+      "Tess Soltau",
+      "Jared Abrahamson",
+      "Ade Otukoya",
+      "Scott Cohen",
+      "Berto Colón"
+    ],
+    "director": "",
+    "runtime": 63,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/536/1340329.jpg",
+    "summary": "Starring Colin Farrell as Oz Cobb (aka The Penguin), the DC Studios series continues filmmaker Matt Reeves' The Batman epic crime saga that began with Warner Bros. Pictures' global blockbuster The Batman . Developed by showrunner Lauren LeFranc, the series centers on the character played by Farrell in the film.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "HBO",
+        "region": "GLOBAL",
+        "url": "https://www.hbo.com/the-penguin",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/60920/the-penguin",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000064992,
+    "externalId": "64992",
+    "title": "The Gentlemen",
+    "year": 2024,
+    "releaseDate": "2024-03-07",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      "Theo James",
+      "Kaya Scodelario",
+      "Vinnie Jones",
+      "Joely Richardson",
+      "Daniel Ings",
+      "Ray Winstone",
+      "Jasmine Blackborow",
+      "Giancarlo Esposito",
+      "Benedetta Porcaroli",
+      "Sergio Castellitto",
+      "Benjamin Clementine",
+      "Laurence O'Fuarain",
+      "Hugh Bonneville",
+      "Joshua McGuire",
+      "Edward Fox",
+      "Freddie Fox",
+      "Kristofer Hivju",
+      "Michele Morrone",
+      "Peter Ferdinando"
+    ],
+    "director": "",
+    "runtime": 53,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/641/1603070.jpg",
+    "summary": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire — and its proprietors aren't going anywhere.",
+    "trailer": "",
+    "score": 7.7,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81437051",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/64992/the-gentlemen",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000048830,
+    "externalId": "48830",
+    "title": "Only Murders in the Building",
+    "year": 2021,
+    "releaseDate": "2021-08-31",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "cast": [
+      "Steve Martin",
+      "Martin Short",
+      "Selena Gomez",
+      "Michael Cyril Creighton",
+      "Amy Ryan",
+      "Adina Verson",
+      "Aaron Dominguez",
+      "Cara Delevingne"
+    ],
+    "director": "",
+    "runtime": 35,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/586/1466415.jpg",
+    "summary": "Only Murders in the Building follows three New Yorkers who find they have a mutual interest in solving true crime – but limit their amateur sleuthing to only murders in their building.",
+    "trailer": "",
+    "score": 6.8,
+    "providers": [
+      {
+        "name": "Hulu",
+        "region": "GLOBAL",
+        "url": "https://www.hulu.com/series/only-murders-in-the-building",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/48830/only-murders-in-the-building",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000055350,
+    "externalId": "55350",
+    "title": "Abbott Elementary",
+    "year": 2021,
+    "releaseDate": "2021-12-07",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Quinta Brunson",
+      "Tyler James Williams",
+      "Janelle James",
+      "Chris Perfetti",
+      "Lisa Ann Walter",
+      "Sheryl Lee Ralph",
+      "William Stanford Davis"
+    ],
+    "director": "",
+    "runtime": 31,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/644/1611887.jpg",
+    "summary": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don't love the school district's less-than-stellar attitude toward educating children.",
+    "trailer": "",
+    "score": 6.3,
+    "providers": [
+      {
+        "name": "ABC",
+        "region": "GLOBAL",
+        "url": "https://abc.com/shows/abbott-elementary",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/55350/abbott-elementary",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000526,
+    "externalId": "526",
+    "title": "The Office",
+    "year": 2005,
+    "releaseDate": "2005-03-24",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Rainn Wilson",
+      "John Krasinski",
+      "Leslie David Baker",
+      "Phyllis Smith",
+      "Jenna Fischer",
+      "Brian Baumgartner",
+      "Angela Kinsey",
+      "Oscar Nuñez",
+      "Kate Flannery",
+      "Creed Bratton",
+      "Ed Helms",
+      "Mindy Kaling",
+      "B.J. Novak",
+      "Steve Carell",
+      "Paul Lieberstein",
+      "Craig Robinson",
+      "Ellie Kemper",
+      "Zach Woods",
+      "Melora Hardin",
+      "Catherine Tate"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/481/1204342.jpg",
+    "summary": "Steve Carell stars in The Office , a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.",
+    "trailer": "",
+    "score": 8.5,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/526/the-office",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000049,
+    "externalId": "49",
+    "title": "Brooklyn Nine-Nine",
+    "year": 2013,
+    "releaseDate": "2013-09-17",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      "Andy Samberg",
+      "Andre Braugher",
+      "Joe Lo Truglio",
+      "Stephanie Beatriz",
+      "Terry Crews",
+      "Melissa Fumero",
+      "Joel McKinnon Miller",
+      "Dirk Blocker",
+      "Chelsea Peretti"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg",
+    "summary": "Brooklyn Nine-Nine is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "NBC",
+        "region": "GLOBAL",
+        "url": "https://www.nbc.com/brooklyn-nine-nine",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000002790,
+    "externalId": "2790",
+    "title": "The Good Place",
+    "year": 2016,
+    "releaseDate": "2016-09-19",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "sourceGenres": [
+      "Comedy",
+      "Fantasy",
+      "Supernatural"
+    ],
+    "cast": [
+      "Kristen Bell",
+      "Ted Danson",
+      "William Jackson Harper",
+      "Jameela Jamil",
+      "Manny Jacinto",
+      "D'Arcy Carden"
+    ],
+    "director": "",
+    "runtime": 31,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/395/989291.jpg",
+    "summary": "The Good Place is a smart, unique comedy about what makes a good person. The show follows Eleanor Shellstrop, an ordinary woman who enters the afterlife and, thanks to some kind of error, is sent to the Good Place instead of the Bad Place, which is definitely where she belongs. While hiding in plain sight from Michael, the wise architect of the Good Place (who doesn't know he's made a mistake), she's determined to shed her old way of living and discover the awesome (or, at least, the pretty good) person within.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/2790/the-good-place",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000016149,
+    "externalId": "16149",
+    "title": "Fleabag",
+    "year": 2016,
+    "releaseDate": "2016-07-21",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy"
+    ],
+    "cast": [
+      "Phoebe Waller-Bridge"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/192/482341.jpg",
+    "summary": "Meet Fleabag . She's not talking to all of us - she's talking to you. So why don't you pop your top off and come right in?",
+    "trailer": "",
+    "score": 8.1,
+    "providers": [
+      {
+        "name": "BBC Three",
+        "region": "GLOBAL",
+        "url": "https://www.bbc.co.uk/programmes/p070npjv",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/16149/fleabag",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000033320,
+    "externalId": "33320",
+    "title": "Derry Girls",
+    "year": 2018,
+    "releaseDate": "2018-01-04",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Saoirse-Monica Jackson",
+      "Tommy Tiernan",
+      "Ian McElhinney",
+      "Louisa Harland",
+      "Kathy Kiera Clarke",
+      "Tara Lynne O'Neill",
+      "Nicola Coughlan",
+      "Jamie-Lee O'Donnell",
+      "Dylan Llewellyn",
+      "Siobhán McSweeney",
+      "Art Campion",
+      "Jamie Beamish"
+    ],
+    "director": "",
+    "runtime": 31,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007479.jpg",
+    "summary": "16-year-old Erin Quinn lives with her uncompromising mother, her long-suffering father and the fearsome ‘Granda Joe', a man whose love for his daughters and granddaughters is surpassed only by his contempt for his son-in-law. It's the early 90s, and Erin is used to seeing her country on the nightly news and speaking in acronyms (The IRA, The UDA, The RUC). This is a time of armed police in armoured Land Rovers and British Army check points. But it's also the time of Murder She Wrote, The Cranberries, MJ and Lisa Marie, Doc Martens, bomber jackets, The X Files, Nirvana and Wayne's World. And while The Troubles may hang over her home town, Erin has troubles of her own",
+    "trailer": "",
+    "score": 7.8,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/33320/derry-girls",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000062357,
+    "externalId": "62357",
+    "title": "Extraordinary Attorney Woo",
+    "year": 2022,
+    "releaseDate": "2022-06-29",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Legal"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Legal"
+    ],
+    "cast": [
+      "Park Eun Bin",
+      "Kang Tae Oh",
+      "Kang Ki Young"
+    ],
+    "director": "",
+    "runtime": 71,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/414/1035908.jpg",
+    "summary": "The story of 27-year-old lawyer Woo Young Woo, who has Asperger's syndrome and graduated at the top of her class at Seoul National University for both college and law school.However, she still finds herself struggling when it comes to social interactions.",
+    "trailer": "",
+    "score": 8,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/62357/extraordinary-attorney-woo",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000042756,
+    "externalId": "42756",
+    "title": "Crash Landing on You",
+    "year": 2019,
+    "releaseDate": "2019-12-14",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "cast": [
+      "Hyun Bin",
+      "Son Ye Jin",
+      "Kim Jung Hyun",
+      "Seo Ji Hye"
+    ],
+    "director": "",
+    "runtime": 101,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/235/588087.jpg",
+    "summary": "Crash Landing on You follows a wealthy heiress named Yoon Se Ri, who, while paragliding, is forced to land in North Korea due to high winds. A North Korean officer named Ri Jung Hyuk hides and protects her, and in doing so, comes to love her",
+    "trailer": "",
+    "score": 8,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/42756/crash-landing-on-you",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000038058,
+    "externalId": "38058",
+    "title": "My Brilliant Friend",
+    "year": 2018,
+    "releaseDate": "2018-11-18",
+    "languages": [
+      "Italian"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Margherita Mazzucco",
+      "Gaia Girace",
+      "Anna Rita Vitolo",
+      "Alessio Gallo",
+      "Eduardo Scarpetta",
+      "Giovanni Amura",
+      "Giovanni Buselli",
+      "Rosaria Langellotto",
+      "Francesco Serpico",
+      "Elvis Esposito",
+      "Luca Gallone",
+      "Fabrizio Cottone",
+      "Gennero De Stefano",
+      "Francesca Pezzella",
+      "Ulrike Migliaresi",
+      "Valentina Acca",
+      "Antonio Buonanno",
+      "Francesca Montuori",
+      "Federica Sollazzo",
+      "Imma Villa"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/540/1350132.jpg",
+    "summary": "My Brilliant Friend tells the story of Elena Greco, a now-elderly woman who discovers the most important friend in her life, Raffaella \"Lila\" Cerullo, seems to have disappeared without a trace. A writer, immersed in a house full of books, Greco turns on her computer and starts writing the story of their tempestuous friendship, starting from the point when Elena met Lila their first year of primary school in 1950. Set in a dangerous and fascinating Naples, their story goes on to cover more than 60 years of their lives as she tries to describe the mystery of Lila, Elena's brilliant friend and — in a way — her best friend, and worst enemy.",
+    "trailer": "",
+    "score": 7.2,
+    "providers": [
+      {
+        "name": "HBO",
+        "region": "GLOBAL",
+        "url": "https://www.hbo.com/my-brilliant-friend",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/38058/my-brilliant-friend",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000030069,
+    "externalId": "30069",
+    "title": "The Bureau",
+    "year": 2009,
+    "releaseDate": "2009-10-07",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/119/298128.jpg",
+    "summary": "The Bureau is a groundbreaking series that for the first time takes the audience inside the 21st Century FBI. As the leading law enforcement agency in the world, the FBI redefines the ways in which crimes are investigated. Today's FBI uses cutting-edge technology and evolving tactics to catch some of the world's most sophisticated criminals. They work the most dangerous and high-stake cases in the history of the bureau, pursuing serial killers, terrorists, thieves, cyber criminals, arms dealers and kidnappers. As the FBI changes, it's time for a new way to tell their stories. The Bureau matches the intensity, captures the innovation, and experiences the human drama and the passion that defines the modern FBI.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/30069/the-bureau",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000003934,
+    "externalId": "3934",
+    "title": "Borgen",
+    "year": 2010,
+    "releaseDate": "2010-09-26",
+    "languages": [
+      "Danish"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Sidse Babett Knudsen",
+      "Søren Malling",
+      "Freja Riemann",
+      "Birgitte Hjort Sørensen",
+      "Pilou Asbæk",
+      "Emil Poulsen",
+      "Mikael Birkkjær"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/461/1154695.jpg",
+    "summary": "Danish Prime Minister Birgitte Nyborg wins a shocking victory and ushers in a wave of political struggles.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "DR1",
+        "region": "GLOBAL",
+        "url": "https://dr.dk/drtv/serie/borgen_293089",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/3934/borgen",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000035,
+    "externalId": "35",
+    "title": "The Killing",
+    "year": 2011,
+    "releaseDate": "2011-04-03",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Mireille Enos",
+      "Joel Kinnaman",
+      "Billy Campbell",
+      "Brent Sexton",
+      "Eric Ladin",
+      "Liam James",
+      "Kristin Lehman",
+      "Jamie Anne Allman",
+      "Michelle Forbes",
+      "Gregg Henry",
+      "Amy Seimetz",
+      "Brendan Sexton III",
+      "Elias Koteas",
+      "Annie Corley",
+      "Hugh Dillon",
+      "Peter Sarsgaard",
+      "Bex Taylor-Klaus",
+      "Julia Sarah Stone",
+      "Max Fowler",
+      "Tyler Ross"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/216/540157.jpg",
+    "summary": "The Killing follows Seattle homicide detectives Stephen Holder and Sarah Linden and their work as detectives investigating murders. Sarah Linden takes cases very seriously and has issues keeping her work and family separate, as she pairs up with recovering addict Stephen Holder to solve dark murders.",
+    "trailer": "",
+    "score": 8.2,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/35/the-killing",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000000087,
+    "externalId": "87",
+    "title": "The Bridge",
+    "year": 2013,
+    "releaseDate": "2013-07-10",
+    "languages": [
+      "English"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Diane Kruger",
+      "Demián Bichir",
+      "Ted Levine",
+      "Matthew Lillard",
+      "Emily Rios",
+      "Annabeth Gish",
+      "Thomas M. Wright"
+    ],
+    "director": "",
+    "runtime": 60,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/0/649.jpg",
+    "summary": "When the body of a cartel member is found on US soil, Sonya Cross from El Paso PD and her Mexican counterpart, Marco Ruiz must work together to solve the case. A present-day crime thriller exploring the tensions on the US-Mexico border. When an American judge known for her anti-immigration views is found dead on the bridge connecting El Paso and Juarez, Sonya Cross from El Paso PD must work with her Mexican counterpart from Chihuahua State Police, Marco Ruiz, to catch a serial killer operating on both sides of the border. Marco understands the slippery politics of Mexican law enforcement, and while his police force slowly succumbs to the pressures and demands of the cartel, he's one of the last good men in the department. He's charming but will do whatever it takes to get what he needs -- which doesn't sit well with Sonya, who has Asperger's and strictly follows rules and protocol. The case quickly pulls them into a string of murders on the border, a scene already consumed by illegal immigration, drug trafficking, violence, and prostitution.",
+    "trailer": "",
+    "score": 7.5,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/87/the-bridge",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000015315,
+    "externalId": "15315",
+    "title": "Fauda",
+    "year": 2015,
+    "releaseDate": "2015-02-15",
+    "languages": [
+      "Hebrew"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "cast": [
+      "Lior Raz",
+      "Doron Ben-David",
+      "Itzik Cohen",
+      "Shadi Mar'i",
+      "Rona-Lee Shim'on",
+      "Boaz Konforty",
+      "Tsahi Halevi",
+      "Laetitia Eido",
+      "Neta Garty",
+      "Hisham Suliman",
+      "Yaakov Zada Daniel",
+      "Firas Nassar",
+      "Yuval Segal",
+      "Idan Amedi",
+      "Hanan Hillo",
+      "Tomer Capone",
+      "Khawlah Hag-Debsy",
+      "Uri Gavriel",
+      "Mouna Hawa",
+      "Yaara Benbenishty"
+    ],
+    "director": "",
+    "runtime": 45,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/631/1579218.jpg",
+    "summary": "Fauda (Arabic for 'Chaos') depicts the two-sided story of the Israeli-Palestinian conflict. Doron, a commander of undercover Israeli unit operating inside Palestinian territories, and his team, are hunting down Hamas activist Abu-Ahmed. On the other side of the fence, the tragic life of Abu-Ahmed and his family, and the reasons for their escalating hatred towards Israel.",
+    "trailer": "",
+    "score": 7.6,
+    "providers": [
+      {
+        "name": "Yes",
+        "region": "GLOBAL",
+        "url": "https://www.yes.co.il/contents/Pages/israeli_series/fauda.aspx",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/15315/fauda",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000048362,
+    "externalId": "48362",
+    "title": "Tehran",
+    "year": 2020,
+    "releaseDate": "2020-06-22",
+    "languages": [],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Espionage"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller",
+      "Espionage"
+    ],
+    "cast": [
+      "Niv Sultan",
+      "Shaun Toub",
+      "Shila Ommi",
+      "Shervin Alenabi",
+      "Menashe Noy",
+      "Liraz Charhi",
+      "Glenn Close",
+      "Phoenix Raei",
+      "Hugh Laurie",
+      "Darius Homayoun",
+      "Sasson Gabai",
+      "Navid Negahban"
+    ],
+    "director": "",
+    "runtime": 45,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/607/1518736.jpg",
+    "summary": "A Mossad agent embarks on her first mission as a computer hacker in her home town of Tehran.",
+    "trailer": "",
+    "score": 7.5,
+    "providers": [
+      {
+        "name": "Kan 11",
+        "region": "GLOBAL",
+        "url": "https://tv.apple.com/us/show/tehran/umc.cmc.337cdk1ou0bmn6frmzxwm7xqd",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/48362/tehran",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000051887,
+    "externalId": "51887",
+    "title": "Bir Başkadır",
+    "year": 2020,
+    "releaseDate": "2020-11-12",
+    "languages": [
+      "Turkish"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama"
+    ],
+    "sourceGenres": [
+      "Drama"
+    ],
+    "cast": [
+      "Öykü Karayel",
+      "Fatih Artman",
+      "Funda Eryiğit",
+      "Defne Kayalar",
+      "Tülin Özen",
+      "Alican Yücesoy",
+      "Bige Önal",
+      "Derya Karadaş",
+      "Öner Erkan",
+      "Nesrin Cavadzade",
+      "Gülçin Kültür Şahin",
+      "Aziz Capkurt",
+      "Nur Sürer"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/282/707240.jpg",
+    "summary": "A group of individuals in Istanbul transcend sociocultural boundaries and find connection as their fears and wishes intertwine.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81106900",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/51887/bir-baskadir",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000044538,
+    "externalId": "44538",
+    "title": "The Empress",
+    "year": 2011,
+    "releaseDate": "2011-10-01",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Romance"
+    ],
+    "cast": [
+      "Jang Shin Young",
+      "Jun Se Hyun",
+      "Kang Ji Sub",
+      "Choi Phillip"
+    ],
+    "director": "",
+    "runtime": 50,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/216/540247.jpg",
+    "summary": "Seo In Hwa is a bar hostess whose main goal is to seek revenge on the rich, corrupt men who hurt her.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/44538/the-empress",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000039749,
+    "externalId": "39749",
+    "title": "1899",
+    "year": 2022,
+    "releaseDate": "2022-11-17",
+    "languages": [],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "cast": [
+      "Emily Beecham",
+      "Miguel Bernardeau",
+      "Aneurin Barnard",
+      "Maciej Musiał",
+      "Rosalie Craig",
+      "Clara Rosager",
+      "Yann Gael",
+      "Mathilde Ollivier",
+      "José Pimentão",
+      "Maria Erwolter",
+      "Isabella Wei",
+      "Jonas Bloquet",
+      "Fflyn Edwards",
+      "Alexandre Willaume",
+      "Tino Mewes",
+      "Isaak Dentler",
+      "Andreas Pietschmann",
+      "Lucas Lynggaard Tønnesen",
+      "Gabby Wong",
+      "Anton Lesser"
+    ],
+    "director": "",
+    "runtime": 55,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/422/1055108.jpg",
+    "summary": "1899. A migrant steamship heads west to leave the old continent. The passengers, a mixed bag of European origins, united by their hopes and dreams for the new century and their future abroad. But their journey takes an unexpected turn when they discover another migrant ship adrift on open sea. What they will find on board, will turn their passage to the promised land into a horrifying nightmare.",
+    "trailer": "",
+    "score": 7,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80214497",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/39749/1899",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000059241,
+    "externalId": "59241",
+    "title": "Berlín",
+    "year": 2023,
+    "releaseDate": "2023-12-29",
+    "languages": [
+      "Spanish"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Pedro Alonso",
+      "Tristán Ulloa",
+      "Michelle Jenner",
+      "Begoña Vargas",
+      "Julio Peña Fernández",
+      "Joel Sánchez",
+      "Samantha Siqueiros"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/497/1243972.jpg",
+    "summary": "During his glory days, Berlin and a gang assembled in Paris for one of his greatest plans ever: stealing 44 million euros' worth of jewels in one night.",
+    "trailer": "",
+    "score": 7.1,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81586657",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/59241/berlin",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000068723,
+    "externalId": "68723",
+    "title": "El Eternauta",
+    "year": 2025,
+    "releaseDate": "2025-04-30",
+    "languages": [
+      "Spanish"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Action",
+      "Science Fiction"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Action",
+      "Science-Fiction"
+    ],
+    "cast": [
+      "Ricardo Darín",
+      "César Troncoso",
+      "Andrea Pietra",
+      "Ariel Staltari",
+      "Marcelo Subiotto",
+      "Carla Peterson",
+      "Claudio Martínez Bel"
+    ],
+    "director": "",
+    "runtime": 54,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/554/1385448.jpg",
+    "summary": "One summer's night in Buenos Aires, a mysterious deadly snowfall wipes out most of the population and leaves thousands stranded. Juan Salvo and his friends embark on a desperate struggle for survival. Everything changes when they discover that the toxic snowstorm is only the first attack by a foreign army invading Earth. The only way to stay alive is to join together and fight. No one will survive on their own. The series is the first screen adaptation of the iconic Argentine sci-fi graphic novel El Eternauta (The Eternaut), written by Héctor G. Oesterheld and illustrated by Francisco Solano Lopez, which was first published in 1957.",
+    "trailer": "",
+    "score": 7.3,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/80216888",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/68723/el-eternauta",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000074399,
+    "externalId": "74399",
+    "title": "When Life Gives You Tangerines",
+    "year": 2025,
+    "releaseDate": "2025-03-07",
+    "languages": [
+      "Korean"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Romance"
+    ],
+    "cast": [
+      "IU",
+      "Moon So Ri",
+      "Park Bo Gum",
+      "Park Hae Joon"
+    ],
+    "director": "",
+    "runtime": 62,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/553/1383936.jpg",
+    "summary": "In Jeju, a spirited girl and a steadfast boy's island story blossoms into a lifelong tale of setbacks and triumphs --- proving love endures across time.",
+    "trailer": "",
+    "score": 5.8,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81681535",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/74399/when-life-gives-you-tangerines",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000073104,
+    "externalId": "73104",
+    "title": "Dhootha",
+    "year": 2023,
+    "releaseDate": "2023-12-01",
+    "languages": [
+      "Telugu"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 44,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/489/1224820.jpg",
+    "summary": "Journalist Sagar's life turns thrilling as he unravels dark secrets behind newspaper clippings predicting tragedies. He becomes a murder suspect, racing against time to clear his name and solve the enigma and faces dangerous twists. Suspense builds in this roller-coaster ride.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.primevideo.com/detail/0U9GNC4J1WHF2ME4SLKFR80XAL/ref=atv_dp_share_cu_r",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/73104/dhootha",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000069583,
+    "externalId": "69583",
+    "title": "Kerala Crime Files",
+    "year": 2023,
+    "releaseDate": "2023-06-23",
+    "languages": [
+      "Malayalam"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167026.jpg",
+    "summary": "A team of six policemen led by Sub-Inspector Manoj is on a chase to solve a murder in a suburban lodge room, with just one clue - a fake address, Shiju, Parayil Veedu, Neendakara, from a lodge register.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "JioHotstar",
+        "region": "GLOBAL",
+        "url": "https://www.hotstar.com/in/shows/kerala-crime-files-shiju-parayil-veedu-neendakara/1260141610",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/69583/kerala-crime-files",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000074463,
+    "externalId": "74463",
+    "title": "Poacher",
+    "year": 2024,
+    "releaseDate": "2024-02-23",
+    "languages": [
+      "Malayalam"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Crime"
+    ],
+    "sourceGenres": [
+      "Crime"
+    ],
+    "cast": [
+      "Nimisha Sajayan",
+      "Roshan Mathew",
+      "Dibyendu Bhattacharya",
+      "Ankith Madhav",
+      "Kani Kusruti",
+      "Suraj Pops",
+      "Ranjitha Menon",
+      "Vinod Sharawat",
+      "Sanoop Dinesh"
+    ],
+    "director": "",
+    "runtime": 49,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/505/1264336.jpg",
+    "summary": "A group of Indian Forest Service officers, NGO workers, police constables and Good Samaritans risk their lives trying to track down the biggest elephant ivory poachers in the history of India and bring them to justice.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/gp/video/detail/B0CJP913CG/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/74463/poacher",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000073832,
+    "externalId": "73832",
+    "title": "Perilloor Premier League",
+    "year": 2024,
+    "releaseDate": "2024-01-05",
+    "languages": [
+      "Malayalam"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Nikhila Vimal",
+      "Sunny Wayne"
+    ],
+    "director": "",
+    "runtime": 36,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/498/1247231.jpg",
+    "summary": "Following her childhood crush, Malavika comes to the Perilloor village. Much to her dismay, the kooky natives force her to fight in the panchayat elections.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "JioHotstar",
+        "region": "GLOBAL",
+        "url": "https://www.hotstar.com/gb/tv/perilloor-premier-league/1260158500",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/73832/perilloor-premier-league",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000073753,
+    "externalId": "73753",
+    "title": "Humble Politiciann Nograj",
+    "year": 2022,
+    "releaseDate": "2022-01-06",
+    "languages": [],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Comedy"
+    ],
+    "sourceGenres": [
+      "Comedy"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245390.jpg",
+    "summary": "Synopsis not available.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/73753/humble-politiciann-nograj",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000077502,
+    "externalId": "77502",
+    "title": "Pet Puraan",
+    "year": 2022,
+    "releaseDate": "2022-05-05",
+    "languages": [
+      "Marathi"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/521/1304855.jpg",
+    "summary": "Even after years of being married to each other, Atul and Aditi are still confused about whether or not to become parents. Friends and relatives urge them to take the next step toward parenthood, but the couple is not convinced. However, everything changes for this 'in-denial' married couple when they foster a pregnant cat that lands on their doorstep, leading them to decide to take on an exciting yet challenging phase of life - Pet Parenting!",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "SonyLIV",
+        "region": "GLOBAL",
+        "url": "https://www.sonyliv.com/shows/pet-puraan-marathi-1700000897",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/77502/pet-puraan",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000058910,
+    "externalId": "58910",
+    "title": "Mandaar",
+    "year": 2021,
+    "releaseDate": "2021-11-19",
+    "languages": [
+      "Bengali"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/406/1017154.jpg",
+    "summary": "Power corrupts. And the pursuit of power devastates. Here's presenting the trailer of Mandaar, a tale of ambition and greed, loyalty and betrayal. Series premieres 19 November, only on hoichoi!",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Hoichoi",
+        "region": "GLOBAL",
+        "url": "https://www.hoichoi.tv/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/58910/mandaar",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000052582,
+    "externalId": "52582",
+    "title": "Taqdeer",
+    "year": 2020,
+    "releaseDate": "2020-12-18",
+    "languages": [
+      "Bengali"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Mystery"
+    ],
+    "sourceGenres": [
+      "Crime",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      "Chanchal Chowdhury",
+      "Sanjida Preeti",
+      "Monoj Kumar Pramanik",
+      "Sohail Rana",
+      "Shohel Mondol"
+    ],
+    "director": "",
+    "runtime": 23,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/290/725802.jpg",
+    "summary": "Freezer van driver Taqdeer spirals into a dark game of destiny after he finds the dead body of an unclaimed woman in his truck.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Hoichoi",
+        "region": "GLOBAL",
+        "url": "https://www.hoichoi.tv/webseries/taqdeer",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/52582/taqdeer",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000065966,
+    "externalId": "65966",
+    "title": "Karagar",
+    "year": 2022,
+    "releaseDate": "2022-08-19",
+    "languages": [
+      "Bengali"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": null,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/436/1091013.jpg",
+    "summary": "Synopsis not available.",
+    "trailer": "",
+    "score": null,
+    "providers": [],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/65966/karagar",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000056091,
+    "externalId": "56091",
+    "title": "Mohanagar",
+    "year": 2021,
+    "releaseDate": "2021-06-25",
+    "languages": [
+      "Bengali"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Uncategorized"
+    ],
+    "sourceGenres": [],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 30,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/333/833817.jpg",
+    "summary": "One fateful night, a police station in Bangladesh, and a motley crowd consisting of criminals, an eminent industrialist, media, general public. What does this night have in store for them?",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Hoichoi",
+        "region": "GLOBAL",
+        "url": "https://www.hoichoi.tv/bn/shows/watch-mohanagar-bengali-web-series-online",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/56091/mohanagar",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000065687,
+    "externalId": "65687",
+    "title": "Vadhandhi: The Fable of Velonie",
+    "year": 2022,
+    "releaseDate": "2022-12-02",
+    "languages": [
+      "Tamil"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 46,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/434/1085976.jpg",
+    "summary": "Vivek, a diligent cop, takes charge of the investigation of the murder of a beautiful young girl, Velonie. As an unjust and sensational media trial threatens to irrevocably damage Velonie's image, Vivek must wade through a web of half-truths and confusing leads to solve the case. The series is produced by Pushkar & Gayatri and created by Andrew Louis.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "Prime Video",
+        "region": "GLOBAL",
+        "url": "https://www.amazon.com/gp/video/detail/B0B8LTQ5TL/",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/65687/vadhandhi-the-fable-of-velonie",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "id": 2000055783,
+    "externalId": "55783",
+    "title": "Iru Dhuruvam",
+    "year": 2019,
+    "releaseDate": "2019-09-29",
+    "languages": [
+      "Tamil"
+    ],
+    "languageSource": "TVmaze original language",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "sourceGenres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      "Not indexed"
+    ],
+    "director": "",
+    "runtime": 24,
+    "poster": "https://static.tvmaze.com/uploads/images/original_untouched/522/1305065.jpg",
+    "summary": "The series consists of hard-core police investigation stories dealing with investigation, detection and suspense.",
+    "trailer": "",
+    "score": null,
+    "providers": [
+      {
+        "name": "SonyLIV",
+        "region": "GLOBAL",
+        "url": "https://www.sonyliv.com/shows/iru-dhuruvam-tamil-1700001152",
+        "type": "official-title",
+        "checkedAt": "2026-10-26"
+      }
+    ],
+    "source": "TVmaze",
+    "sourceUrl": "https://www.tvmaze.com/shows/55783/iru-dhuruvam",
+    "mediaType": "tv",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "updatedAt": "2026-10-26"
+  },
+  {
+    "mediaType": "movie",
+    "source": "Wikipedia",
+    "runtime": 121,
+    "score": null,
+    "providers": [],
+    "releaseDate": null,
+    "updatedAt": "2026-10-27",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "languageSource": "Original-language credit",
+    "id": 610000000001,
+    "title": "DAMaN",
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "cast": [
+      "Babushaan Mohanty",
+      "Dipanwit Dashmohapatra"
+    ],
+    "director": "Vishal Mourya and Debi Prasad Lenka",
+    "summary": "A young doctor posted to a remote region of Odisha works with local communities to fight malaria and overcome barriers to treatment.",
+    "poster": "https://images.justwatch.com/poster/297596886/s718/daman.jpg",
+    "trailer": "MOckS35r8yE",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Daman_(2022_film)",
+    "languages": [
+      "Odia"
+    ],
+    "industry": "Ollywood",
+    "regionOfOrigin": "Odia"
+  },
+  {
+    "mediaType": "movie",
+    "source": "Wikipedia",
+    "runtime": null,
+    "score": null,
+    "providers": [],
+    "releaseDate": null,
+    "updatedAt": "2026-10-27",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "languageSource": "Original-language credit",
+    "id": 610000000002,
+    "title": "Pratikshya",
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "cast": [
+      "Dipanwit Dashmohapatra",
+      "Choudhury Jayaprakash Das",
+      "Barsha Patnaik",
+      "Sreela Tripathy",
+      "Siddhanta Mahapatra"
+    ],
+    "director": "Anupam Patnaik",
+    "summary": "A young job seeker confronts family expectations and a medical crisis as he pursues a government position.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2U0ZjJiNWUtM2M5Ni00ZDEzLWFlMTAtZWU2ZWQyZTY5MGYwXkEyXkFqcGc%40._V1_.jpg",
+    "trailer": "E_p4kHzZBTM",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pratikshya",
+    "languages": [
+      "Odia"
+    ],
+    "industry": "Ollywood",
+    "regionOfOrigin": "Odia"
+  },
+  {
+    "mediaType": "movie",
+    "source": "Amiya Patnaik Production",
+    "runtime": null,
+    "score": null,
+    "providers": [],
+    "releaseDate": null,
+    "updatedAt": "2026-10-27",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "languageSource": "Original-language credit",
+    "id": 610000000003,
+    "title": "Dahaan",
+    "year": 2026,
+    "genres": [
+      "Horror"
+    ],
+    "cast": [
+      "Barsha Patnaik",
+      "Partha Sarathi Ray",
+      "Aurosikha Mishra",
+      "Samrat Mahapatra"
+    ],
+    "director": "Anupam Patnaik",
+    "summary": "A supernatural horror story unfolds around a family and a mysterious ancestral house.",
+    "poster": "https://image.tmdb.org/t/p/w500/6ThwhGmO8wLQ8xj6d8hkUSWmd6O.jpg",
+    "trailer": "MwuGY3qVooY",
+    "sourceUrl": "https://dahaan.in/",
+    "languages": [
+      "Odia"
+    ],
+    "industry": "Ollywood",
+    "regionOfOrigin": "Odia"
+  },
+  {
+    "mediaType": "movie",
+    "source": "Wikipedia",
+    "runtime": 169,
+    "score": null,
+    "providers": [
+      {
+        "name": "Netflix",
+        "region": "GLOBAL",
+        "url": "https://www.netflix.com/title/81493411",
+        "type": "official-title",
+        "checkedAt": "2026-10-27"
+      }
+    ],
+    "releaseDate": null,
+    "updatedAt": "2026-10-27",
+    "featured": true,
+    "metadataStatus": "enriched",
+    "languageSource": "Original-language credit",
+    "id": 274656132998611,
+    "title": "Jawan",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "cast": [
+      "Shah Rukh Khan",
+      "Nayanthara",
+      "Vijay Sethupathi",
+      "Deepika Padukone"
+    ],
+    "director": "Atlee",
+    "summary": "A mysterious vigilante challenges corruption while confronting a dangerous figure from his past.",
+    "poster": "https://images.herzindagi.info/image/2024/Jul/jawan-cast.jpg",
+    "trailer": "COv52Qyctws",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jawan_(film)",
+    "languages": [
+      "Hindi"
+    ],
+    "industry": "Bollywood",
+    "regionOfOrigin": "Hindi"
+  }
+]

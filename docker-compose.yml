@@ -1,0 +1,53 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: cineclay
+      POSTGRES_USER: cineclay
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cineclay -d cineclay"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+  api:
+    build:
+      context: .
+      dockerfile: src/Cineclay.Api/Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:5081
+      ConnectionStrings__Movies: Host=db;Port=5432;Database=cineclay;Username=cineclay;Password=${POSTGRES_PASSWORD}
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?Set ADMIN_API_KEY in .env}
+      TMDB_TOKEN: ${TMDB_TOKEN:-}
+    ports:
+      - "127.0.0.1:5081:5081"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      dockerfile: src/Cineclay.Web/Dockerfile
+    environment:
+      ASPNETCORE_URLS: http://+:5080
+      ASPNETCORE_ENVIRONMENT: Development
+      API_URL: http://api:5081
+      ADMIN_API_KEY: ${ADMIN_API_KEY}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+      KEYS_PATH: /keys
+    ports:
+      - "127.0.0.1:5080:5080"
+    volumes:
+      - protection_keys:/keys
+    depends_on:
+      - api
+    restart: unless-stopped
+volumes:
+  postgres_data:
+  protection_keys:
