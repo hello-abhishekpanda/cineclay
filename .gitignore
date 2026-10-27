@@ -9,3 +9,6 @@
 !dist/Cineclay.Source.zip
 
 .catalog-cache/
+albums.youtube.json
+__pycache__/
+*.py[cod]

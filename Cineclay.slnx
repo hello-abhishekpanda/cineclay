@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Cineclay.Api/Cineclay.Api.csproj" />
+    <Project Path="src/Cineclay.Shared/Cineclay.Shared.csproj" />
+    <Project Path="src/Cineclay.Web/Cineclay.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Cineclay.Checks/Cineclay.Checks.csproj" />
+  </Folder>
+</Solution>

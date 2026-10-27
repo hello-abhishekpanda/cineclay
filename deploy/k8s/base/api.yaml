@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cineclay-api
+  namespace: cineclay
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: cineclay-api
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: cineclay-api
+    spec:
+      containers:
+        - name: api
+          image: cineclay-api:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 5081
+          env:
+            - name: ASPNETCORE_URLS
+              value: http://+:5081
+            - name: ConnectionStrings__Movies
+              valueFrom:
+                secretKeyRef:
+                  name: cineclay-runtime
+                  key: postgres-connection-string
+            - name: ADMIN_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: cineclay-runtime
+                  key: admin-api-key
+          readinessProbe:
+            httpGet:
+              path: /health/ready
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cineclay-api
+  namespace: cineclay
+spec:
+  selector:
+    app.kubernetes.io/name: cineclay-api
+  ports:
+    - name: http
+      port: 5081
+      targetPort: http

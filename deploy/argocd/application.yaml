@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cineclay
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/REPLACE_WITH_OWNER/REPLACE_WITH_REPOSITORY.git
+    targetRevision: main
+    path: deploy/k8s/overlays/azure
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: cineclay
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true

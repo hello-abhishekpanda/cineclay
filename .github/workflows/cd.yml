@@ -1,0 +1,42 @@
+name: CD preparation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cd-preparation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-gitops:
+    name: Validate future AKS and Argo CD bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up kubectl
+        uses: azure/setup-kubectl@v4
+
+      - name: Render Kubernetes manifests
+        run: kubectl kustomize deploy/k8s/overlays/azure > /tmp/cineclay-azure.yaml
+
+      - name: Render Argo CD application
+        run: kubectl kustomize deploy/argocd > /tmp/cineclay-argocd.yaml
+
+      - name: Upload deployment bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: cineclay-azure-manifests-${{ github.sha }}
+          path: |
+            /tmp/cineclay-azure.yaml
+            /tmp/cineclay-argocd.yaml
+          retention-days: 7
+          if-no-files-found: error
+
+      - name: Confirm non-publishing mode
+        run: echo "Validation complete. This workflow does not log in to Azure, push images, change Git, or deploy."

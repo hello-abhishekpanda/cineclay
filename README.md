@@ -1,6 +1,6 @@
 # Cineclay
 
-Cineclay is a movie and television discovery project with a cinema-inspired interface, year, genre and language filters, title search, pagination, watchlists, reviews, trailers, streaming links and the clayDot discovery assistant. Its opening sequence highlights Hollywood, Bollywood and Ollywood; Odia cinema has a dedicated collection. Light and dark themes follow your device preference and can be changed from the header.
+Cineclay is a movie, television and music discovery project with a cinema-inspired interface, year, genre and language filters, title search, pagination, watchlists, reviews, trailers, streaming links and the clayDot discovery assistant. Its opening sequence highlights Hollywood, Bollywood and Ollywood; Odia cinema has a dedicated collection. The Albums tab indexes Odia, Hindi and English songs through official YouTube links. Light and dark themes follow your device preference and can be changed from the header.
 
 ## Project structure
 
@@ -9,6 +9,8 @@ Cineclay is a movie and television discovery project with a cinema-inspired inte
 - `src/Cineclay.Api/` — .NET 10 API, PostgreSQL persistence, seed data and optional TMDB import.
 - `src/Cineclay.Shared/` — shared models.
 - `scripts/` — catalog utilities, including the source-backed Odia snapshot and its year-list references.
+- `deploy/` — non-secret Kubernetes overlays and an Argo CD application scaffold for a future Azure deployment.
+- `.github/workflows/` — CI through OCI image creation and a non-publishing CD preparation workflow.
 - `tests/` — API tests.
 
 The preview's clayDot is a catalog-based, rule-driven assistant; it is not connected to an AI model. The preview Studio at `/#studio` is a browser-local demo and is not a secure administrative interface. Use the authenticated Blazor Studio for server-side changes. A production deployment needs appropriate identity, role management, HTTPS, secrets and monitoring configured for its environment.
@@ -35,6 +37,31 @@ TV series metadata is sourced from TVmaze; the wider film archive includes Wikip
 Streaming services and availability vary by location and change over time. An official service logo in the platform directory links to its catalog; a title-specific provider link is shown only when recorded. A provider's title page is not proof of a currently available subscription or free offer. Otherwise Cineclay links to a JustWatch search, not a verified offer. Free-catalog labels describe the service, not every title on it.
 
 The API seeds its initial enriched catalog. For the public archive, use the import utility in `scripts/load_public_catalog.py` and its help output, configuring it for the target local API. Importing is an explicit operation; it is not performed on the static preview.
+
+## Albums and YouTube import
+
+The initial album seed contains a small set of direct YouTube links. To discover Odia, Hindi and English music metadata for every year from 2000 through the actual current year, enable the YouTube Data API v3, set `YOUTUBE_API_KEY`, and run:
+
+```bash
+python3 scripts/import_youtube_albums.py
+```
+
+The script uses the supported YouTube Data API rather than scraping HTML. Its default 81 searches (three languages across 27 years in 2026) consume about 8,100 quota units, so review your Google Cloud quota before running it. Results are metadata and links only; no audio or video is downloaded. To apply results to a running local API, also set `ADMIN_API_KEY` and add `--apply-url http://localhost:5081`. Search metadata cannot independently prove a song's original release year, so the generated year groups reflect the year-constrained YouTube search and should be editorially reviewed.
+
+## Database setup
+
+`scripts/database.sh` creates and migrates a PostgreSQL database using the standard `PGHOST`, `PGPORT`, `PGUSER`, and `PGPASSWORD` variables:
+
+```bash
+CINECLAY_DB_NAME=cineclay scripts/database.sh setup
+CINECLAY_DB_NAME=cineclay scripts/database.sh verify
+```
+
+The API applies the same idempotent schema at startup and seeds empty movie and album tables. Keep production database credentials in Azure Key Vault or another secret manager, never in source control.
+
+## CI and future Azure delivery
+
+CI restores, formatting-checks, builds and tests the .NET solution, validates Python utilities, and builds API/web OCI archives without pushing them. The manual CD preparation workflow renders Kubernetes manifests and packages them as an artifact; it does not log in to Azure, push to ACR, commit image tags, or deploy. See `deploy/README.md` for the explicit work required before enabling AKS and Argo CD delivery.
 
 ## Supabase migration
 

@@ -1,0 +1,144 @@
+@page "/albums"
+@inject CatalogClient Api
+
+<PageTitle>Albums — Cineclay</PageTitle>
+
+<section class="album-page">
+    <div class="intro">
+        <div>
+            <span class="eyebrow">Music across the years</span>
+            <h1>Albums & songs</h1>
+        </div>
+        <p>Odia, Hindi and English music from 2000 to @DateTime.Now.Year.</p>
+    </div>
+
+    @if (Error is not null)
+    {
+        <div class="notice" role="alert">@Error</div>
+    }
+
+    <div class="filters">
+        <label class="search">
+            ⌕
+            <input type="search" aria-label="Search albums and songs" placeholder="Search albums, songs, artists…" @bind="Query" @bind:event="oninput" @onkeyup="SearchKey" />
+        </label>
+        <button class="secondary" @onclick="Search">Search</button>
+        <select aria-label="Music language" @bind="Language" @bind:after="Search">
+            <option value="">All languages</option>
+            <option>Odia</option>
+            <option>Hindi</option>
+            <option>English</option>
+        </select>
+        <select aria-label="Release year" @bind="Year" @bind:after="Search">
+            <option value="">All years</option>
+            @for (var year = DateTime.Now.Year; year >= 2000; year--)
+            {
+                <option value="@year">@year</option>
+            }
+        </select>
+    </div>
+
+    @if (Busy)
+    {
+        <p role="status">Finding music…</p>
+    }
+
+    <div class="album-grid">
+        @foreach (var album in AlbumItems)
+        {
+            <article class="album-card">
+                <img src="@album.Cover" alt="Cover for @album.Title" loading="lazy" />
+                <div class="album-copy">
+                    <span class="eyebrow">@album.Language · @album.Year</span>
+                    <h2>@album.Title</h2>
+                    <p>@album.Artist</p>
+                    <ol>
+                        @foreach (var song in album.Songs)
+                        {
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=@song.YouTubeVideoId" target="_blank" rel="noopener noreferrer">
+                                    <span>▷</span>
+                                    <span><strong>@song.Title</strong><small>@song.Artist</small></span>
+                                </a>
+                            </li>
+                        }
+                    </ol>
+                </div>
+            </article>
+        }
+    </div>
+
+    @if (!Busy && AlbumItems.Count == 0)
+    {
+        <div class="empty">
+            <h3>No albums found.</h3>
+            <p>Try another language, year, or search.</p>
+        </div>
+    }
+
+    <div class="load-row">
+        <button class="secondary" disabled="@(Page == 1 || Busy)" @onclick="Previous">← Previous</button>
+        <span>Page @Page of @Math.Max(1, (int)Math.Ceiling(Total / 12.0))</span>
+        <button class="secondary" disabled="@(Page * 12 >= Total || Busy)" @onclick="Next">Next →</button>
+    </div>
+</section>
+
+@code {
+    readonly List<Album> AlbumItems = [];
+    string Query = "";
+    string Language = "";
+    string Year = "";
+    string? Error;
+    int Page = 1;
+    int Total;
+    bool Busy;
+
+    protected override async Task OnInitializedAsync() => await Load();
+
+    async Task Load()
+    {
+        Busy = true;
+        Error = null;
+        try
+        {
+            var result = await Api.Albums(Query, Language, Year, Page, 12);
+            AlbumItems.Clear();
+            AlbumItems.AddRange(result.Items);
+            Total = result.Total;
+        }
+        catch (Exception exception) when (exception is HttpRequestException or TaskCanceledException)
+        {
+            Error = "The music catalog is unavailable. Check the API and database connection.";
+        }
+        finally
+        {
+            Busy = false;
+        }
+    }
+
+    async Task Search()
+    {
+        Page = 1;
+        await Load();
+    }
+
+    async Task SearchKey(KeyboardEventArgs eventArgs)
+    {
+        if (eventArgs.Key == "Enter")
+        {
+            await Search();
+        }
+    }
+
+    async Task Previous()
+    {
+        Page--;
+        await Load();
+    }
+
+    async Task Next()
+    {
+        Page++;
+        await Load();
+    }
+}
