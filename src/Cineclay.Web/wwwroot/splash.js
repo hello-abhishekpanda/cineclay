@@ -1,7 +1,7 @@
 (() => {
   if (location.pathname !== "/" || document.querySelector(".cinema-splash")) return;
 
-  const storageKey = "cineclay.splash.v4";
+  const storageKey = "cineclay.splash.v5";
   try {
     if (sessionStorage.getItem(storageKey)) return;
   } catch {}
